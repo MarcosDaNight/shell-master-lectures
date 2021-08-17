@@ -1,12 +1,14 @@
-
+#!/usr/bin/env bash
 NAME = "Marcos GDN"
+
+echo $0
 
 echo "Created By: $NAME"
 
 NUMBER_1=46
 NUMBER_2=74
 
-TOTAL=$(($NUMERO_1+$NUMERO_2))
+TOTAL=$(($NUMBER_1+$NUMBER_2))
 
 echo "$TOTAL"
 
@@ -27,4 +29,4 @@ echo "Output last command: $?"
 
 echo "PID: $$"
 
-echo $0
+
