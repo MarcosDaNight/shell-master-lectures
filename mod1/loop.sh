@@ -10,4 +10,21 @@ for i in $(seq 10);
 do
 	echo $i
 done
-	
+
+echo "==== For 3 (array)"
+Fruits=(
+'Orange'
+'Avocador'
+'Pinnaple'
+'BlueBarry'
+)
+for i in "${Fruits[@]}"; do
+	echo "$i"
+done
+
+echo "==== While"
+counter=0
+while [[ $counter -lt ${#Fruits[@]} ]]; do
+	echo $counter
+	counter=$(($counter+1))
+done
