@@ -42,7 +42,6 @@ USER_MESSENGER="
 	-s - Exit order
 "
 VERSION="1.0v"
-ORDER_KEY=0
 # ------------------------------------------------------------------------------------#
 #
 # --------------------------------------Tests----------------------------------------------
@@ -57,26 +56,17 @@ ORDER_KEY=0
 # ------------------------------------------------------------------------------------#
 #
 # --------------------------------------Execution----------------------------------------------#
-#if [ "$1" = "-h" ]; then
-#	echo "$USER_MESSENGER" && exit 0
-#fi
-#
-#if [ "$1" = "-v" ]; then
-#	echo "$VERSION" && exit 0
-#fi
-#
-#if [ "$1" = "-s" ]; then
-#	echo "$USERS" | sort && exit 0
-#fi
+if [ "$1" = "-h" ]; then
+	echo "$USER_MESSENGER" && exit 0
+fi
 
-case "$1" in
-	-h) echo "$USER_MESSENGER" && exit 0 ;;
-	-v) echo "$VERSION" && exit 0        ;;
-	-s) ORDER_KEY=1                      ;;
-	 *) echo "$USERS"                    ;;
-esac
+if [ "$1" = "-v" ]; then
+	echo "$VERSION" && exit 0
+fi
 
-[ $ORDER_KEY -eq 1 ] && echo "$USERS" | sort
+if [ "$1" = "-s" ]; then
+	echo "$USERS" | sort && exit 0
+fi
 
 # ------------------------------------------------------------------------------------#
 
