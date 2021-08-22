@@ -35,7 +35,7 @@
 
 USERS="$(cat /etc/passwd | cut -d : -f 1)"
 USER_MESSENGER="
-	$0 - [OPTIONS]
+   $(basename $0) - [OPTIONS]
 
 	-h - Help Menu
 	-v - Version
@@ -57,23 +57,24 @@ VERSION="1.0v"
 # ------------------------------------------------------------------------------------#
 #
 # --------------------------------------Execution----------------------------------------------#
-if [ "$1" = "-h" ]; then
-	echo "$USER_MESSENGER" && exit 0
-fi
+#if [ "$1" = "-h" ]; then
+#	echo "$USER_MESSENGER" && exit 0
+#fi
+#
+#if [ "$1" = "-v" ]; then
+#	echo "$VERSION" && exit 0
+#fi
+#
+#if [ "$1" = "-s" ]; then
+#	echo "$USERS" | sort && exit 0
+#fi
 
-if [ "$1" = "-v" ]; then
-	echo "$VERSION" && exit 0
-fi
-
-if [ "$1" = "-s" ]; then
-	echo "$USERS" | sort && exit 0
-fi
-
-
-
-echo "$USERS"
-
-
+case "$1" in
+	-h) echo "$USER_MESSENGER" && exit 0 ;;
+	-v) echo "$VERSION" && exit 0        ;;
+	-s) echo "$USERS" | sort && exit 0   ;;
+	 *) echo "$USERS"                    ;;
+esac
 
 # ------------------------------------------------------------------------------------#
 
