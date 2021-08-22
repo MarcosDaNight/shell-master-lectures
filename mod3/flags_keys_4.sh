@@ -40,9 +40,11 @@ USER_MESSENGER="
 	-h - Help Menu
 	-v - Version
 	-s - Exit order
+	-m - Exit uppercase
 "
 VERSION="1.0v"
 ORDER_KEY=0
+UPPERCASE_KEY=0
 # ------------------------------------------------------------------------------------#
 #
 # --------------------------------------Tests----------------------------------------------
@@ -73,11 +75,13 @@ case "$1" in
 	-h) echo "$USER_MESSENGER" && exit 0 ;;
 	-v) echo "$VERSION" && exit 0        ;;
 	-s) ORDER_KEY=1                      ;;
+	-m) UPPERCASE_KEY=1                  ;;
 	 *) echo "$USERS"                    ;;
 esac
 
 [ $ORDER_KEY -eq 1 ] && echo "$USERS" | sort
 
+[ $UPPERCASE_KEY -eq 1 ] && echo "$USERS" | tr [a-z] [A-Z]
 # ------------------------------------------------------------------------------------#
 
 
