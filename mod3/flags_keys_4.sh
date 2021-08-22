@@ -17,8 +17,20 @@
 # Change log:
 # 
 #
-# 	v1.0 22/08/2021, Marcos Guillermo:
-#  - 
+#  v1.0 22/08/2021, Marcos Guillermo;
+#  - Added -s, -h & -v
+#
+#  v1.1 22/08/2021, Marcso Guillermo:
+#  - Change IF per CASE
+#  - Added basename
+#
+#  v1.2 22/08/2021, Marcos Guillermo:
+#  - Added while with shift and variable test
+#  - Added 2 flags
+#
+# 	v1.3 22/08/2021, Marcos Guillermo:
+#  - Added while with shift and variable test
+#  - Added 2 flags
 #
 # ------------------------------------------------------------------------------------#
 # Test in:
@@ -42,7 +54,7 @@ USER_MESSENGER="
 	-s - Exit order
 	-m - Exit uppercase
 "
-VERSION="1.0v"
+VERSION="1.3v"
 ORDER_KEY=0
 UPPERCASE_KEY=0
 # ------------------------------------------------------------------------------------#
@@ -59,29 +71,23 @@ UPPERCASE_KEY=0
 # ------------------------------------------------------------------------------------#
 #
 # --------------------------------------Execution----------------------------------------------#
-#if [ "$1" = "-h" ]; then
-#	echo "$USER_MESSENGER" && exit 0
-#fi
-#
-#if [ "$1" = "-v" ]; then
-#	echo "$VERSION" && exit 0
-#fi
-#
-#if [ "$1" = "-s" ]; then
-#	echo "$USERS" | sort && exit 0
-#fi
+while test -n "$1"
+do
+	case "$1" in
+		-h) echo "$USER_MESSENGER" && exit 0               ;;
+		-v) echo "$VERSION" && exit 0                      ;;
+		-s) ORDER_KEY=1                                    ;;
+		-m) UPPERCASE_KEY=1                                ;;
+		 *) echo "Invalid Option, use -h option" && exit 1 ;;
+	esac
+	shift
+done
 
-case "$1" in
-	-h) echo "$USER_MESSENGER" && exit 0 ;;
-	-v) echo "$VERSION" && exit 0        ;;
-	-s) ORDER_KEY=1                      ;;
-	-m) UPPERCASE_KEY=1                  ;;
-	 *) echo "$USERS"                    ;;
-esac
+[ $ORDER_KEY -eq 1 ]     && USERS=$(echo "$USERS" | sort)
 
-[ $ORDER_KEY -eq 1 ] && echo "$USERS" | sort
+[ $UPPERCASE_KEY -eq 1 ] && USERS=$(echo "$USERS" | tr [a-z] [A-Z])
 
-[ $UPPERCASE_KEY -eq 1 ] && echo "$USERS" | tr [a-z] [A-Z]
+echo "$USERS"
 # ------------------------------------------------------------------------------------#
 
 
