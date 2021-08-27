@@ -1,0 +1,1056 @@
+116 2/7 1 tinker: Cool Wluff -titulo -falta conexao slideswitch
+118 10/7 9 Falstad_comb: Porta NAND de 3 entradas - CMOS
+118 11/7 120 livre: links sobre limite prático de portas CMOS com analogia pneumática para MOSFET
+118 11/7 12 Falstad_comb: Porta NAND com 4 entradas - CMOS
+118 11/7 12 Falstad_comb: Porta NOR 4 entradas - CMOS
+118 11/7 9 Falstad_comb: Porta NOR com 3 entradas
+118 12/7 3 Falstad_comb: Meio inversor NMOS
+118 12/7 3 Falstad_comb: Meio inversor PMOS
+118 12/7 9 Falstad_comb: OAI
+118 1/7 3 tinker: Porta NOR com CMOS -faltam conexões
+118 1/7 4 tinker: Porta NOT com CMOS
+118 1/7 5 tinker: Porta NAND com CMOS
+118 7/7 1 Falstad_comb: Porta AND com CMOS -elementar
+118 7/7 1 Falstad_comb: Porta OR com CMOS -elementar
+118 7/7 4 Falstad_comb: Porta NOT com CMOS
+118 7/7 5 Falstad_comb: Porta NAND com CMOS
+118 7/7 9 Falstad_comb: Porta NOR com CMOS
+129 12/7 1 Falstad_comb:  Porta Logica AND Refeita -elementar
+129 12/7 1 Falstad_comb: Porta OR refeita -elementar
+129 12/7 2 Falstad_comb: Porta XNOR
+129 12/7 3 Falstad_comb:  Porta AOI -função -falta conexão
+129 12/7 6 Falstad_comb:  Porta OAI -função?
+129 12/7 8 Falstad_comb: Porta XOR
+129 13/7 0 chat: acho q cmos já é obsoleto
+129 13/7 10 chat: acredito que sim pq não tem outro lugar pra dissipação
+129 13/7 10 Falstad_comb:  Porta Logica Xor
+129 13/7 1 Falstad_comb:  Porta Logica AND -elementar
+129 13/7 1 Falstad_comb:  Porta Logica Or -elementar
+129 13/7 1 Falstad_comb:  Porta Logica Xnor -elementar
+129 13/7 4 Falstad_comb:  Porta AOI -função? -falta conexão
+129 13/7 6 Falstad_comb:  Porta Logica Nand
+129 13/7 6 Falstad_comb:  Porta OAI -função?
+129 13/7 8 Falstad_comb:  Porta Logica Nor
+129 14/7 5 Falstad_comb: Inversor
+129 16/7 5 chat: ele exige três geradores, uma subestação de energia e uma sala de nobreak
+129 20/7 4 chat: https://linux.ime.usp.br/~brunobra/pdf/FPGA.pdf
+129 23/7 3 chat: é
+129 25/6 6 chat: acho q sim
+129 30/7 3 chat: .sv é system verilog
+129 6/7 1 Falstad_comb:  Porta Logica OR -dois_meio_inversor?
+129 6/7 4 chat: V para colocar 5 volts g o terra
+129 6/7 4 Falstad_comb:  Inversor 
+129 6/7 5 Falstad_comb:  Porta Logica NAND
+129 6/7 8 Falstad_comb:  Porta Logica NOR
+147 13/7 15 chat: a capacitância sirva para acumular carga no gate e criar um campo elétrico
+147 13/7 5 chat: Computação quântica foge de CMOS?
+147 13/7 5 chat: Essa dissipação de energia em formato de calor acontece porque a carga não tem para onde sair
+147 14/7 8 Falstad_comb: Porta de igualdade lógica (XNOR)
+147 1/7 3 tinker: Meio Not PMOS
+147 1/7 3 tinker: Teste1 -titulo
+147 1/7 4 tinker: Porta Not
+147 19/7 8 Falstad_comb: Verificador de paridade com 3 entradas
+147 2/7 7 chat: Quando abre o tinkercad, ele dá a opção de colocar um nickname Você coloca o apelido que o prof mandou no email
+147 2/7 7 chat: Vocês que estão vendo tela preta, tentem baixar o app do zoom
+147 2/7 8 chat: Acho que tem que fazer um NAND e um inversor para negar o valor do NAND Mesma coisa para o OR
+147 29/6 3 chat: http://lad.ufcg.edu.br/loac
+147 6/7 1 Falstad_comb: Porta AND -elementar
+147 6/7 1 Falstad_comb: Porta OR -elementar
+147 6/7 4 Falstad_comb: Porta NOT
+147 6/7 5 Falstad_comb: Porta NAND
+147 6/7 8 Falstad_comb: Porta NOR
+227 1/7 2 tinker: Smooth Borwo -titulo -falta conectar switch -gates na alimentação 
+229 16/7 1 Falstad_comb: Porta AOI -falta conectar todos os A e todos os B e C D
+229 16/7 1 Falstad_comb: Porta OAI -falta conectar todos os A e todos os B e C
+229 16/7 1 Falstad_comb: Porta vai-um invertida para somador completo -falta conectar todos os A e todos os B -colafl8oGxj
+229 16/7 3 Falstad_comb: Meio inversor usando somente o NMOS
+229 16/7 3 Falstad_comb: Meio inversor usando somente o PMOS
+229 16/7 5 Falstad_comb: Inversor
+229 16/7 6 Falstad_comb: Porta não-e
+229 16/7 9 Falstad_comb: Porta não-ou
+229 20/7 2 chat: https://www.youtube.com/watch?v=80slhBSl4VQ&ab_channel=AllElectronics
+229 2/7 1 tinker: Porta And -elementar
+229 2/7 3 chat: Professor, a atividade da "porta vai-um invertida" é denominada assim para ...  designar a construção de uma porta vai-um com a saída invertida?
+229 2/7 3 chat: Só para ficar claro. Por exemplo, um meio inversor usando somente o PMOS, é simplesmente um PMOS?
+229 2/7 3 tinker: Meio inversor usando somente o NMOS
+229 2/7 3 tinker: Meio inversor usando somente o PMOS
+229 2/7 3 tinker: Porta Lógica Integrada
+229 28/6 4 tinker: Inversor
+229 3/8 11 FPGA_comb:  Exercício para Exibição de Hexadecimal em Display -junto
+229 3/8 15 FPGA_comb:  Situação na disciplina
+229 3/8 1 FPGA_comb:  Exercicio para Exibicao de Decimal em Display -testar
+229 3/8 9 FPGA_comb:  Exercicio para Exibicao de Simbolos em Display -parameter_intuitivo -junto
+229 6/7 4 Falstad_comb: Inversor
+229 8/8 1 FPGA_comb:  Lógica combinatória -testar
+229 8/8 30 FPGA_comb:  Classificador de nota
+229 9/7 12 Falstad_comb: Porta OAI
+229 9/7 1 Falstad_comb: Porta vai-um invertida para somador completo -falta conectar todos os A e todos os B -colafRchxpH
+229 9/7 3 Falstad_comb: Porta AOI -faltam conexões
+258 12/7 2 Falstad_comb: Implicador
+258 12/7 3 Falstad_comb: NAND gate 3 inputs v1
+258 12/7 3 Falstad_comb: NAND gate 3 inputs v2
+258 12/7 3 Falstad_comb: NAND gate 3 inputs v3
+258 12/7 3 Falstad_comb: NAND gate 3 inputs v4
+258 12/7 3 Falstad_comb: NAND gate 3 inputs v5
+258 12/7 3 Falstad_comb: NAND gate 3 inputs v6
+258 12/7 3 Falstad_comb: XNOR gate 2 inputs v1
+258 12/7 3 Falstad_comb: XNOR gate 2 inputs v2
+258 12/7 3 Falstad_comb: XOR gate 2 inputs
+258 13/7 10 Falstad_comb: XNOR gate 4 inputs
+258 13/7 3 Falstad_comb: NAND gate 4 inputs v1
+258 13/7 3 Falstad_comb: NAND gate 4 inputs v2
+258 13/7 3 Falstad_comb: NAND gate 4 inputs v3
+258 13/7 3 Falstad_comb: NAND gate 4 inputs v4
+258 13/7 3 Falstad_comb: NAND gate 4 inputs v5
+258 13/7 3 Falstad_comb: NOR gate 3 inputs com duas portas OR e uma porta AND
+258 13/7 3 Falstad_comb: NOR gate 3 inputs com uma porta OR e uma porta NOT
+258 13/7 3 Falstad_comb: NOR gate 3 inputs usando 3 portas NOT e duas portas AND
+258 13/7 3 Falstad_comb: NOR gate 3 inputs usando 3 portas NOT e uma porta AND
+258 13/7 3 Falstad_comb: NOR gate 3 inputs usando duas portas NOT, uma porta OR e uma porta AND
+258 13/7 3 Falstad_comb: NOR gate 3 inputs usando uma porta NOR, uma porta NOT e uma porta AND
+258 13/7 3 Falstad_comb: NOR gate 3 inputs usando uma porta OR e uma porta NOR
+258 13/7 3 Falstad_comb: NOR gate 4 inputs usando 3 portas OR e uma porta NOT
+258 13/7 3 Falstad_comb: NOR gate 4 inputs usando 4 portas NOT e 3 portas AND
+258 13/7 3 Falstad_comb: NOR gate 4 inputs usando 4 portas NOT e uma porta AND de 4 entradas
+258 13/7 3 Falstad_comb: NOR gate 4 inputs usando duas portas AND, duas portas NOT e uma porta AND
+258 13/7 3 Falstad_comb: NOR gate 4 inputs usando duas portas NOR e uma porta AND
+258 13/7 3 Falstad_comb: NOR gate 4 inputs usando duas portas NOT, uma porta NOR e uma porta AND de 3 entradas
+258 13/7 3 Falstad_comb: NOR gate 4 inputs usando duas portas NOT, uma porta OR e uma porta AND
+258 13/7 3 Falstad_comb: NOR gate 4 inputs usando uma porta NOR, duas portas NOT e duas portas AND
+258 13/7 3 Falstad_comb: NOR gate 4 inputs usando uma porta OR e uma porta NOT
+258 13/7 8 Falstad_comb: XNOR gate 3 inputs v3
+258 13/7 8 Falstad_comb: XOR gate 3 inputs
+258 16/7 3 chat: normalmente usam 24 também
+258 1/7 12 tinker: and-or invert cmos
+258 20/7 12 chat: A legibilidade é um atributo do código que você pode e deve aprender para adotar logo no começo de sua carreira de programação
+258 29/6 4 tinker: not gate cmos
+258 30/6 1 tinker: and gate cmos -elementar
+258 30/6 1 tinker: or gate cmos  -elementar
+258 30/6 5 tinker: nand gate cmos
+258 30/6 8 tinker: nor gate cmos
+258 7/7 1 Falstad_comb: AND gate cMOS -elementar
+258 7/7 1 Falstad_comb: OR gate cMOS -elementar
+258 7/7 4 Falstad_comb: Porta NOT cMOS
+258 7/7 5 Falstad_comb: NAND gate cMOS
+258 7/7 8 Falstad_comb: NOR gate cMOS
+285 13/7 15 chat: Professor, qual a quantidade ideal de energia que deve ser permitida 
+285 13/7 9 chat: Professor, o que acontece então dentro desse campo elétrico?
+285 20/7 5 chat: Onde a FPGA é mais usada?
+285 25/6 12 chat: No caso, uma porta PMOS faz o mesmo trabalho de um transistor?
+285 28/6 1 tinker: IMPLICADOR (A EM B)
+285 28/6 4 tinker: INVERSOR
+285 30/6 2 tinker: AND - quad
+285 30/6 2 tinker: NAND - quad -entrada aberta -alimentaçaõ
+285 30/6 2 tinker: NOT - QUAD
+285 30/6 2 tinker: OR - quad
+285 3/8 4 chat: Quais são as principais diferenças entre GPU e FPGA?
+296 29/6 1 tinker: Buffer - CMOS -elementar
+296 29/6 1 tinker: CMOS - AND 2 Entradas -elementar
+296 29/6 1 tinker: Smooth Wluff-Curcan
+296 29/6 4 tinker: CMOS - Inversor
+296 29/6 5 tinker: CMOS - NAND 2 Entradas
+296 29/6 6 tinker: CMOS - NAND 3 Entradas
+296 29/6 8 tinker: CMOS - NOR
+307 14/7 10 Falstad_comb:  Circuito Somador Completo usando NAND(74HC00)
+307 14/7 10 Falstad_comb:  Circuito Somador Completo usando NOR(74HC02)
+307 14/7 1 Falstad_comb:  Circuito Meio Somador -copia de AND usando portas NOR
+307 14/7 1 Falstad_comb:  Circuito OR usando portas NAND (74HC00) -copia de AND usando portas NOR
+307 14/7 3 Falstad_comb:  Meio inversor nMOS
+307 14/7 3 Falstad_comb:  Meio inversor pMOS
+307 14/7 4 Falstad_comb:  Circuit AOI-21 -qualfunção?
+307 14/7 4 Falstad_comb:  Circuito OAI -qualfunção?
+307 14/7 5 Falstad_comb:  Circuito AND usando portas NOR(74HC02) 
+307 14/7 6 Falstad_comb:  Circuito Somador Completo usando XOR(74HC86), AND(74HC08) e OR(74HC32) 
+307 14/7 6 Falstad_comb:  Porta NAND
+307 14/7 8 Falstad_comb:  Circuito XNOR usando portas NOR (74HC02) 
+307 14/7 8 Falstad_comb:  Circuito XOR usando portas NAND (74HC00) 
+307 14/7 9 Falstad_comb:  Porta NOS CMOS
+307 19/7 10 Falstad_comb:  Geração e Verificação de Paridade Par (4 bits)
+307 19/7 1 Falstad_comb:  Decodificador de 2-4 linhas -falta circuito
+307 19/7 2 Falstad_comb:  Decodificador de 1-2 (2^1) linhas
+307 19/7 9 Falstad_comb:  Decodificador com Enable
+307 25/6 4 tinker: Inversor
+307 29/6 4 chat: Professor esse fio verde que esta na coluna C esta vindo da fonte ?
+357 10/8 1 FPGA_comb:  Brincamos com display de sete segmentos - HDL 02 Display de 7 segmentos  -min/maiusculo
+357 11/7 1 Falstad_comb: Meio-Inversor-NMOS -PMOS
+357 11/7 3 Falstad_comb: Meio-Inversor-NMOS
+357 12/7 100 livre: Fan-out e seus limites em circuitos lógicos
+357 13/7 10 chat: como a temperatura afeta desempenho: https://www.pugetsystems.com/labs/articles/Impact-of-Temperature-on-Intel-CPU-Performance-606/
+357 13/7 10 chat: Essa dissipação é realizada nos transistores e nas suas conexões
+357 13/7 10 chat: Posso considerar que ao longo do tempo, essa dissipação pode prejudicar os componentes?
+357 13/7 15 livre: grafico energia Google
+357 13/7 5 chat:  lei de moore e como ela pode acabar: https://www.investopedia.com/terms/m/mooreslaw.asp
+357 13/7 7 chat: Professor o fogo simboliza a passagem de energia?
+357 13/8 1 FPGA_comb:  Brincamos com display de sete segmentos - HDL 02 Display de 7 segmentos  -erro_declaracao
+357 13/8 20 FPGA_comb:  Brincamos com display de sete segmentos - HDL 02 Display de 7 segmentos  -nomes_parameter_min/mai�sculas
+357 14/8 1 FPGA_comb:  Brincamos com display de sete segmentos - HDL 02 Display de 7 segmentos  -teste
+357 15/7 10 Falstad_comb: Gerador de Paridade Par (4bits)
+357 15/7 10 Falstad_comb: Somador Completo com NAND
+357 15/7 10 Falstad_comb: Somador completo com NOR
+357 15/7 8 Falstad_comb: Verificador de Paridade Par (4bits)
+357 16/7 3 chat:  Petaflops é uma unidade de medida usada para medir o desempenho da unidade de ponto flutuante de um processador
+357 16/7 5 chat: o maior computador do mundo: https://www.tudocelular.com/mercado/noticias/n172248/supercomputador-mais-poderoso-mundo-japao.html
+357 16/7 7 chat: Cada uma dessas três cores possui 256 tonalidades,  16 milhões de possibilidades de cores
+357 17/7 20 livre: Demonstração da Eficiência do Cálculo de π usando algoritmo de Chudnovsky
+357 20/7 10 chat: Professor, pelo o que vi, FPGA consegue servir como uma "placa mãe" por assim dizer
+357 20/7 3 chat: para saber mais sobre: https://www.oficinadanet.com.br/tecnologia/28103-o-que-e-chip-fpga
+357 24/7 25 livre: Tecnologia de fabrica��o de Processadores de differentes empresas IBM 2nm -comercial_so_daqui_4_anos
+357 2/7 1 tinker: XOR 2 entradas -elementar
+357 28/6 9 tinker: NAND 3 entradas
+357 29/6 15 chat: fui eu que fiz a pergunta (eletrostática)
+357 29/6 5 chat: sim
+357 3/8 15 chat: Professor, não consegui executar o simulador via mingw(no caso, via Windows)
+357 6/7 90 livre: Eletricidade Estática e seus efeitos em Dispositivos eletrônicos
+357 7/7 10 Falstad_comb: NAND 3 entradas
+357 7/7 10 Falstad_comb: NOR 3 entradas
+357 7/7 13 Falstad_comb: NAND 4 entradas
+357 7/7 13 Falstad_comb: NOR de 4 Entradas
+357 7/7 1 Falstad_comb: AND com NOT e NAND -elementar
+357 7/7 1 Falstad_comb: OR usando NOT e NOR CMOS -elementar
+357 7/7 2 Falstad_comb: OR com NOT e NOR
+357 7/7 4 Falstad_comb: Inversor CMOS
+357 7/7 5 Falstad_comb: NAND CMOS
+357 7/7 8 Falstad_comb: NOR CMOS
+357 7/7 8 Falstad_comb: XNOR com NOR
+357 7/7 8 Falstad_comb: XOR com NAND
+357 7/7 8 Falstad_comb: XOR usando NOR
+357 7/8 30 FPGA_comb:  HDL: Lógica combinatória - Lista 01 FPGA -falta_if_else -variaveis_parameter_saida
+374 13/7 5 Falstad_comb:  Inversor
+374 13/7 6 Falstad_comb:  Nand
+374 13/7 9 Falstad_comb:  NOR
+374 16/7 3 chat: www.carbonfootprint.com
+374 20/7 2 Falstad_comb: Porta AND
+374 20/7 2 Falstad_comb: Porta OR
+391 13/7 2 chat: farad é o mesmo que fez a experimento da gaiola?
+391 13/7 3 chat: threadripper
+391 13/7 8 chat: Professor, tem algum controlador? ou cada circuito tem a voltagem padrão?
+391 16/7 5 chat: ele não usa divisões por ser mais custoso
+391 16/7 5 chat: Falei 1080p, p = pixels
+391 16/7 8 chat: 3 red, greed blue
+391 16/7 8 chat: 75 MegaPixels/s
+391 20/7 10 chat: raspery pi é processador arduino é um microcontrolador
+391 20/7 14 Falstad_comb:  Decodificador de Display de 7 Segmentos
+391 20/7 3 chat: alcateias de lobos
+391 20/7 4 Falstad_comb:  Inversor
+391 20/7 6 Falstad_comb:  NAND
+391 20/7 9 Falstad_comb:  NOR
+391 23/7 4 chat: ponto tracado no SEG
+391 28/6 3 tinker: meio inversor usando somente o PMOS
+391 28/6 4 tinker: Inversor
+391 29/6 10 chat: é interruptor deslizante no tinkercad, o slideswitch
+391 29/6 10 chat: professor, pq o nome dos prontos é centavos?
+391 29/6 5 tinker: porta não-e
+391 29/6 8 chat: professor, da pra minerar nessas placas?
+391 6/8 4 chat: 100Hex
+391 6/8 4 chat: http://www.comp.ita.br/~pauloac/ce703/ce703_cap2_p2.pdf
+399 13/8 1 FPGA_comb:  DESCRIPTION: Soma e Multiplicação -teste
+399 21/7 1 FPGA_comb:  DESCRIPTION: Atividade Display 7 segmentos -testar
+399 29/6 3 tinker: Meio_inversor_com_NMOS
+399 29/6 3 tinker: Meio_inversor_com_PMOS
+399 29/6 4 tinker: Inversor
+399 29/6 5 tinker: Porta_não-E
+399 29/6 8 tinker: Porta_não-OU
+399 30/6 10 tinker: Somador_Completo
+399 30/6 5 tinker: Porta_AND
+399 30/6 8 tinker: Porta_XOR
+399 8/7 10 Falstad_comb: somador completo usando 74HC00 e 74HC02
+399 8/7 1 Falstad_comb: Vai-Um invertido -elementar
+399 8/7 3 Falstad_comb: Meio inversor com NMOS
+399 8/7 3 Falstad_comb: Meio inversor com PMOS
+399 8/7 4 Falstad_comb: Inversor
+399 8/7 5 Falstad_comb: porta E (AND) usando o 74HC02 (NOR)
+399 8/7 5 Falstad_comb: Porta não-END
+399 8/7 8 Falstad_comb: Porta nao-OU
+399 8/7 8 Falstad_comb: porta XOR usando 1 exemplar 74HC00 (4xNAND)
+420 10/8 1 FPGA_comb:  Lógica Combinatória - Tomadas de decisão e acionamento de LEDS/Segmentos -testar
+420 11/7 3 Falstad_comb:  AOI 2-1 CMOS -função?
+420 11/7 6 Falstad_comb:  AOI 2-2 CMOS -função?
+420 13/7 10 chat: existem componentes eletrônicos nos eletrodomésticos tambem? ou é puramente elétrico?
+420 13/7 10 chat: pode acontecer de queimar, professor? ou é bem difícil?
+420 13/7 12 chat: então o capacitor armazena essas cargas até ter "força" pra continuar a corrente?
+420 13/7 4 chat:  1 Farad é 1 Coulomb/Volt. a capacitância é a quantidade de carga elétrica armazenada dividida pela diferença de potencial
+420 13/7 5 chat: 1 pF = 1x10^-12 Farad
+420 13/7 5 chat: essa unidade de medida do capacitor é Faraday
+420 13/7 5 chat: já existem computadores quânticos comerciais?
+420 14/7 1 Falstad_comb:  Implicador (A em B) - Corrigido e transistores ajustados -elementar
+420 14/7 3 Falstad_comb:  Implicador Lógico (A em B)
+420 30/7 5 chat: porque você não altera o SWI, você só acessa ele
+420 6/7 2 Falstad_comb:  CMOS NAND 6 Entradas -demais
+420 8/7 1 Falstad_comb:  2-Input AND CMOS -elementar
+420 8/7 1 Falstad_comb:  OR 2 portas CMOS -elementar
+420 8/7 6 Falstad_comb:  NAND 2 portas CMOS
+420 8/7 9 Falstad_comb:  NOR 2 portas CMOS
+432 3/8 8 chat: mapa de karnaugh
+437 13/7 5 chat: Os computadores quânticos ainda só estão sendo estudados
+437 13/8 30 FPGA_comb:  HDL: Lógica Combinatória -somente express�es booleanas
+442 10/8 32 FPGA_comb:  Corrigindo nome da atividade: Questões de lógica combinatória -pouco_teste -variaveis_saida
+442 10/8 45 FPGA_comb:  Atividade do site loac - HDL: Display de 7 segmentos
+442 12/7 12 Falstad_comb:  4 input NAND
+442 12/7 1 Falstad_comb:  AND gate -elementar
+442 12/7 1 Falstad_comb:  OR gate -elementar
+442 12/7 1 Falstad_comb:  XOR gate com inversores -elementar
+442 12/7 6 Falstad_comb:  Y = (~A^~B^~C) || (A^~B^~C) || (A^~B^C)
+442 12/7 8 Falstad_comb:  2 input NOR gate
+442 12/7 9 Falstad_comb:  3 input NAND gate
+442 12/8 1 FPGA_comb:  Soma (00) e Multiplicação (10) -erro_case
+442 13/7 10 chat: quais estratégias são usadas para evitar esse aumento de temperatura ?
+442 13/7 15 chat: e pra reduzir essa tensão tem que modificar como o circuito? ou é só reduzir mesmo
+442 13/7 15 lire: link sobre consumo de eenrgia de IA
+442 13/8 1 FPGA_comb:  Soma (00) e Multiplicação (10) -erro_case
+442 15/7 3 Falstad_comb:  A || (B^C^D)
+442 15/7 4 Falstad_comb:  X = AB + BC + AC 
+442 15/7 8 Falstad_comb:  1-4 DEMUX
+442 16/7 3 chat: a apple disse que pretende ser 100% carbon neutral até 2030 com link
+442 16/7 3 chat: Mostra ele por dentro: https://www.youtube.com/watch?v=QaRhGSlMviE
+442 16/7 5 chat: fica em Petrópolis pra facilitar o resfriamento? já que a cidade é bem alta
+442 19/7 10 Falstad_comb:  Full Adder 
+442 19/7 10 Falstad_comb:  Full Adder Using only NAND gates
+442 19/7 5 Falstad_comb:  Half Adder
+442 19/7 5 Falstad_comb:  NOT gate sem opção "Show Bulk" selecionada
+442 19/7 6 Falstad_comb:  NAND Gate sem opção "Show Bulk" selecionada
+442 19/7 9 Falstad_comb:  NOR Gate sem opção "Show Bulk" selecionada
+442 20/7 4 chat: o que é o "<=" ?
+442 25/6 10 chat: a saída eu acho
+442 25/6 3 chat: professor aquela porta que vc fez no último vídeo era um nand no caso ne?
+442 2/7 3 tinker: meio-inversor PMOS
+442 2/7 4 tinker: CMOS inverter
+442 28/6 1 tinker: AND with PMOS and NMOS -elementar
+442 28/6 1 tinker: OR with NMOS and PMOS -elementar
+442 28/6 1 tinker: XOR with PMOS and NMOS -elementar
+442 28/6 5 tinker: NAND with NMOS and PMOS
+442 28/6 8 tinker: NOR with NMOS and PMOS
+442 28/6 9 tinker: 3-input NAND circuit
+442 30/6 1 tinker: 4 input AOI -function
+442 30/6 3 tinker: meio inversor NMOS
+442 30/7 4 chat: binário
+442 3/8 3 chat: bitcoin ameaçando objetivos de combater mudanças climáticas https://www.cnbc.com/2021/04/08/chinas-bitcoin-mining-is-threatening-its-climate-change-targets.html
+442 9/7 15 chat: https://www.statista.com/statistics/788540/energy-consumption-of-google/
+444 14/7 1 Falstad_comb: Circuito AOI de equação Q = ¬(A | (B & C)) -erro de formato
+444 14/7 1 Falstad_comb: Circuito Implicação com CMOS  -erro de formato
+444 30/6 1 tinker: CMOS AND -elementar
+444 30/6 1 tinker: CMOS OR -elementar
+444 30/6 4 tinker: CMOS NOT
+444 30/6 5 tinker: CMOS NAND
+444 30/6 8 tinker: CMOS NOR
+444 7/7 1 Falstad_comb:  Porta AND CMOS -format error
+444 7/7 1 Falstad_comb:  Porta NAND CMOS -format error
+444 7/7 1 Falstad_comb:  Porta NOR CMOS -format error
+444 7/7 1 Falstad_comb:  Porta NOT CMOS  -format error
+444 7/7 1 Falstad_comb: Porta OR CMOS -format error
+447 10/8 15 FPGA_comb:  EXERCÍCIO 3 - LISTA DE OAC
+447 10/8 60 FPGA_comb:  Implementação da atividade "HDL: Lógica combinatória" da listagem do site de LOAC
+447 11/8 12 FPGA_comb:  GERADOR DE PARIDADE PAR 7 BITS
+447 14/7 9 Falstad_comb: PORTA CMOS COMPLEXA (bc + a)´
+447 16/7 10 chat: São as cores que os nossos cones e bastonetes percebem
+447 16/7 20 chat: Professor, fiquei curiosa, essa detecção de faces com a FPGA usa o conceito do algoritmo de Viola-Jones?
+447 16/7 4 chat:  Dividir é subtrair sucessivamente
+447 16/7 5 chat: A indústria 4.0 vem trabalhando em soluções IoT pra eficiência e gerência de energia
+447 16/7 8 chat: 3
+447 1/7 12 tinker: PORTA NAND - 4 ENTRADAS
+447 1/7 12 tinker: PORTA NOR - 4 ENTRADAS
+447 1/7 1 tinker: 2-1 PORTA AOI CMOS -function
+447 1/7 1 tinker: 2-2 PORTA AOI CMOS -function
+447 1/7 1 tinker: PORTA O3AI CMOS -function
+447 20/7 6 Falstad_comb: Maria Eduarda -titulo
+447 23/7 3 chat: No caso esse simulador roda o top.sv q tá dentro do diretório?
+447 25/6 1 tinker: PORTA AND - 2 ENTRADAS -elementar
+447 25/6 1 tinker: PORTA OR - 2 ENTRADAS -elementar
+447 25/6 4 tinker: PORTA NOT
+447 25/6 5 tinker: PORTA NAND - 2 ENTRADAS
+447 25/6 8 chat: Acontece algo se ligarmos o source do PMOS no negativo ou o do NMOS no positivo?
+447 25/6 8 tinker: PORTA NOR - 2 ENTRADAS
+447 2/7 18 chat: (AND elementar) No livro tem dizendo que é imporssível, só usando NAND e NOT
+447 2/7 1 tinker: Amazing Duup
+447 2/7 1 tinker: PORTA COMPLEXA CMOS -etiquetas entradas
+447 2/7 3 tinker: PORTA LÓGICA INTEGRADA (mostrado em aula)
+447 2/7 5 tinker: MEIO SOMADOR
+447 2/7 5 tinker: PORTA VAI-UM INVERTIDA (NAND) 
+447 27/6 1 tinker: PORTA XOR - 2 ENTRADAS -elementar -18
+447 29/6 5 chat: Professor, se fizer a mesma porta com quantidades diferentes de entradas contam como projetos diferentes?
+447 30/6 1 tinker: 2-1 PORTA AOI - unindo portas lógicas -elementar(desune!)
+447 30/6 1 tinker: 2-2 PORTA AOI - unindo portas lógicas -elementar(desune!)
+447 30/6 3 tinker: MEIO INVERSOR NMOS
+447 30/6 3 tinker: MEIO INVERSOR PMOS
+447 30/6 9 tinker: PORTA NAND - 3 ENTRADAS
+447 30/6 9 tinker: PORTA NOR - 3 ENTRADAS
+447 30/7 2 chat: O n>=0 não funciona
+447 30/7 4 chat: As condições? se/senão
+447 3/8 15 chat: Parece um decodificador conectado em OR
+447 6/7 12 chat: No Tinkercad o senhor tinha dito que podia fazer as portas com até 4 entradas, no Falstad pode fazer com mais? Não!
+447 6/8 4 chat: Gasto energético?
+447 7/7 12 Falstad_comb: PORTA AOI - ¬((A ∨ (B ∨ C)) ∧ D)
+447 7/7 12 Falstad_comb: Porta NAND - 4 ENTRADAS
+447 7/7 2 Falstad_comb: Porta NAND - 5 ENTRADAS -demais
+447 7/7 2 Falstad_comb: PORTA NAND - 6 ENTRADAS -demais
+447 7/7 3 Falstad_comb:  Meio inversor NMOS
+447 7/7 3 Silva Falstad_comb: Meio Inversor PMOS
+447 7/7 8 Falstad_comb: Porta NOR - 2 ENTRADAS
+447 7/7 9 Falstad_comb: PORTA 2-1 AOI - ¬ (A v (B^C))
+447 7/7 9 Falstad_comb: Porta NAND - 3 ENTRADAS
+447 7/7 9 Falstad_comb: PORTA NOR - 3 ENTRADAS
+447 9/7 12 Falstad_comb: Porta OAI22
+447 9/7 13 Falstad_comb: Porta CMOS complexa
+447 9/7 3 Falstad_comb: Porta AOI22
+455 12/8 1 FPGA_comb:  HDL: Lógica combinatória -falta_else
+455 13/7 5 chat: Existe um limite de numero de transistores para ter um bom desempenho na maquina ?
+455 16/7 3 chat: https://www.tecmundo.com.br/curiosidade/2845-o-que-sao-flops-.htm
+455 16/7 3 chat: http://www2.decom.ufop.br/imobilis/fpga-flexibilidade-no-projeto-de-hardware-parte-3-de-3/
+455 17/8 10 livre: ideia de página de submissão para projetos livres
+455 18/7 0 Falstad_comb: Inversor nmos -resistor
+455 18/7 10 Falstad_comb: Porta XOR CMOS 
+455 18/7 1 Falstad_comb: PORTA CMOS AND -elementar
+455 18/7 1 Falstad_comb: PORTA CMOS NOT -repetido
+455 18/7 1 Falstad_comb: PORTA CMOS OR -elementar
+455 18/7 1 Falstad_comb: PORTA FLIP-FLOP CMOS -sr
+455 18/7 1 Falstad_comb: Porta Flip-Flop mestre escravo cmos -reenviar
+455 18/7 4 Falstad_comb: Inversor cmos 
+455 18/7 6 Falstad_comb: PORTA CMOS NAND 
+455 18/7 9 Falstad_comb: PORTA CMOS NOR
+455 23/7 2 chat: ajudou ponto tracado no SEG
+455 29/6 8 chat: https://www.tinkercad.com/joinclass/2C7VN8IBUTKR
+455 30/6 4 tinker: Inversor
+455 30/6 5 tinker: NAND 
+455 30/6 5 tinker: porta OU (OR) usando o 74HC00
+455 30/6 8 tinker: And-Or-Inverter(erro) -conexão da fonte trocada
+464 10/8 0 FPGA_comb: Sistema que verifica se um numero de 2 bits é maior que outro -git_pull
+464 12/8 1 FPGA_comb:  ULA -conflito_LED
+464 8/9 15 livre: notificado bug do simulador
+474 16/7 12 chat: https://www.ecycle.com.br/pegada-carbono/ medida que calcula a emissão de carbono equivalente emitida na atmosfera por uma pessoa,...
+474 25/6 5 chat: clica em Loac -> desce até achar os guias e clica em "Guia Transistores e Portas Lógicas"
+474 9/7 70 livre: CONTROLE DE VIDEOGAME SIMPLES
+507 11/8 1 FPGA_comb: HDL: L�gica combinat�ria -conflito_atrubui��es_LED_SEG
+507 12/8 0 FPGA_comb: HDL: L�gica combinat�ria -erro if..else
+507 12/8 1 FPGA_comb: Soma, Subtra��o e Multiplica��o HDL -falta_arquivo_constants.sv
+507 13/8 1 FPGA_comb: HDL: L�gica combinat�ria -faltando_begin_end
+507 13/8 2 FPGA_comb: QUEST�ES 1 e 2 do ex_pratico2 de OAC em SystemVerylog -codigo_dentro_comentario
+507 20/7 9 Falstad_comb: Subtrator completo usando Xor, and e or. -etiquetas
+507 2/7 3 chat: se eu quiser fazer uma porta AND e uma porta OR, separadamente, como faço?
+507 4/8 8 livre: IBM anuncia fabrica��o de 2nm -comercial_so_daqui_4_anos
+507 6/7 3 Falstad_comb:  meio inversor usando somente o NMOS	
+507 6/7 3 Falstad_comb: meio inversor usando somente o PMOS
+507 6/7 4 Falstad_comb:  inversor
+507 6/7 4 Falstad_comb: porta não-e -entradas_gate_erradas
+507 6/7 4 Falstad_comb: porta não-ou -entradas_gate_erradas
+526 2/7 1 tinker: IMPLICÂNCIA -elementar
+526 2/7 5 tinker: NAND-CMOS
+526 29/6 1 tinker: INVERSOR PMOS-NMOS -LED
+532 13/7 10 Falstad_comb:  NOR de 3 entradas
+532 13/7 6 Falstad_comb:  NAND-Gate
+532 14/7 10 Falstad_comb:  Somador-Completo
+532 14/7 3 Falstad_comb:  Meio-Somador-Ajuste
+532 14/7 4 Falstad_comb:  Circuito-Meio-Somador
+532 15/7 8 Falstad_comb:  XNOR-usando-NOR
+532 15/7 8 Falstad_comb:  XOR-usando-NAND
+532 30/6 3 tinker: Meio_inversor_usando_NMOS
+532 30/6 3 tinker: Meio_inversor_usando_PMOS
+532 30/6 4 tinker: Inversor
+532 30/6 8 tinker: NOR_Gate
+534 13/7 3 chat: e sobre a Tecnologia dos nós ?
+534 18/7 12 Falstad_comb:  circuito (O3AI) usando (PMOS) e (NMOS)
+534 18/7 12 Falstad_comb:  circuito (SOMADOR COMPLETO) usando (NAND)
+534 18/7 12 Falstad_comb:  circuito (SOMADOR COMPLETO) usando (NOR)
+534 18/7 12 Falstad_comb:  circuito (SOMADOR COMPLETO) usando (XOR), (AND) e (OR)
+534 18/7 12 Falstad_comb:  porta (NAND) de 4 entradas usando (PMOS) e (NMOS)
+534 18/7 12 Falstad_comb:  porta (NOR) de 4 entradas usando (PMOS) e (NMOS)
+534 18/7 1 Falstad_comb:  circuito (IMPLICAÇÃO) de 2 entradas usando (PMOS) e (NMOS) -elementar
+534 18/7 1 Falstad_comb:  porta (AND) de 2 entradas usando (PMOS) e (NMOS) -elementar
+534 18/7 1 Falstad_comb:  porta (OR) de 2 entradas usando (PMOS) e (NMOS) -elementar
+534 18/7 2 Falstad_comb:  decodificador de 2-4 usando (NOT) e (AND)
+534 18/7 2 Falstad_comb:  porta (NOT) usando a porta (NAND)
+534 18/7 2 Falstad_comb:  porta (NOT) usando a porta (NOR)
+534 18/7 2 Falstad_comb:  porta (OR) de 2 entradas usando a porta (NOR)
+534 18/7 3 Falstad_comb:  circuito ((A and B) or C) usando (OR) e (AND)
+534 18/7 3 Falstad_comb:  circuito ((A or B) and C) usando (OR) e (AND)
+534 18/7 3 Falstad_comb:  circuito (IMPLICAÇÃO) de 2 entradas usando (NOT) e (OR)
+534 18/7 3 Falstad_comb:  decodificador de 1-2 usando (NOT)
+534 18/7 4 Falstad_comb:  meio inversor usando (NMOS)
+534 18/7 4 Falstad_comb:  meio inversor usando (PMOS)
+534 18/7 5 Falstad_comb:  circuito (A and (B or D) and (B or C)) usando ( AND) e (OR)
+534 18/7 5 Falstad_comb:  circuito (A or (B and D) or (B and C)) usando ( AND) e (OR)
+534 18/7 5 Falstad_comb:  circuito (MEIO SOMADOR) usando (AND) e (XOR)
+534 18/7 5 Falstad_comb:  demux(1-2) usando (NOT) e (AND)
+534 18/7 5 Falstad_comb:  mux(2-1) usando (NOT), (AND) e (OR)
+534 18/7 5 Falstad_comb:  porta (NOR) de 2 entradas usando a porta (NAND)
+534 18/7 5 Falstad_comb:  porta (NOT) ou inversor usando (PMOS) e (NMOS)
+534 18/7 5 Falstad_comb:  porta (OR) de 2 entradas usando a porta (NAND)
+534 18/7 6 Falstad_comb:  porta (NAND) de 2 entradas usando (PMOS) e (NMOS)
+534 18/7 6 Falstad_comb:  porta (NXOR) de 2 entradas usando (NOT), (AND) e (OR)
+534 18/7 6 Falstad_comb:  porta (XOR) de 2 entradas usando (NOT), (AND) e (OR)
+534 18/7 7 Falstad_comb:  conversor de código binário para código gray 4-bits
+534 18/7 8 Falstad_comb:  porta (AND) de 2 entradas usando a porta (NAND)
+534 18/7 8 Falstad_comb:  porta (AND) de 2 entradas usando a porta (NOR)
+534 18/7 8 Falstad_comb:  porta (NXOR) de 2 entradas usando a porta (NOR)
+534 18/7 8 Falstad_comb:  porta (XOR) de 2 entradas usando a porta (NAND)
+534 18/7 9 Falstad_comb:  circuito (AOI-21) usando (PMOS) e (NMOS)
+534 18/7 9 Falstad_comb:  circuito (OAI-21) usando (PMOS) e (NMOS)
+534 18/7 9 Falstad_comb:  decodificador de 2-4 com enable usando (NOT) e (AND)
+534 18/7 9 Falstad_comb:  porta (NAND) de 2 entradas usando a porta (NOR)
+534 18/7 9 Falstad_comb:  porta (NAND) de 3 entradas usando (PMOS) e (NMOS)
+534 18/7 9 Falstad_comb:  porta (NOR) de 2 entradas usando (PMOS) e (NMOS)
+534 18/7 9 Falstad_comb:  porta (NOR) de 3 entradas usando (PMOS) e (NMOS)
+534 19/7 10 Falstad_comb:  somador completo montado a partir de 2 meio-somadores
+534 19/7 5 Falstad_comb: circuito (MEIO SUBTRATROR) usando (AND), (NOT) e (XOR)
+534 20/7 11 Falstad_comb:  circuito (SUBTRATOR COMPLETO) usando (AND), (NOT), (OR) e (XOR) -A-B?
+534 20/7 7 Falstad_comb:  conversor de código gray para código binário 4-bits
+534 2/7 1 tinker: circuito (IMPLICAÇÃO) de 2 entradas usando (PMOS) e (NMO -elementar
+534 2/7 1 tinker: porta (AND) de 2 entradas usando (PMOS) e (NMOS) -elementar
+534 2/7 1 tinker: porta (OR) de 2 entradas usando (PMOS) e (NMOS) -elemetnar
+534 2/7 3 tinker: meio inversor usando (NMOS)
+534 2/7 3 tinker: meio inversor usando (PMOS)
+534 2/7 3 tinker: porta (AND) de 2 entradas usando (74HC00)
+534 2/7 3 tinker: porta (NXOR) de 2 entradas usando (74HC04), (74HC08) e (7
+534 2/7 3 tinker: porta (OR) de 2 entradas usando (74HC02)
+534 2/7 3 tinker: porta (XOR) de 2 entradas usando (74HC04), (74HC08) e (74
+534 2/7 5 tinker: porta (NAND) de 2 entradas usando (PMOS) e (NMOS) 
+534 2/7 5 tinker: porta (OR) de 2 entradas usando (74HC00)
+534 2/7 8 tinker: porta (NOR) de 2 entradas usando (PMOS) e (NMOS)
+534 2/7 8 tinker: porta (NXOR) de 2 entradas usando (74HC02)
+534 2/7 8 tinker: porta (XOR) de 2 entradas usando (74HC00)
+534 2/7 9 tinker: porta (NAND) de 3 entradas usando (PMOS) e (NMOS) 
+534 30/7 3 chat: como o valor 7 em decimal deu certo nesse if ?, não deveria ser em binário não
+534 9/7 12 chat: https://www.tecmundo.com.br/mercado/220759-mineracao-bitcoin-derretendo-lago-glacial-12-mil-anos.htm
+539 11/8 45 FPGA_comb:  HDL - Lógica Combinatória -falta_if_else 
+539 12/7 10 Falstad_comb:  somador -completo 3 bits
+539 13/7 3 Falstad_comb:  AOI 2-1
+539 16/7 12 Falstad_comb:  Subtrator completo
+539 16/7 6 Falstad_comb:  Meio subtrator
+539 26/6 4 tinker: CMOS INVERTER
+539 27/6 1 tinker: CMOS OR -elementar
+539 27/6 8 tinker: CMOS NOR
+539 28/6 5 tinker: CMOS NAND
+539 29/6 6 chat: baixei o app do zoom e agora deu certo, enock
+539 30/6 1 tinker: CMOS AND -elementar
+539 7/7 1 Falstad_comb:  and CMOS -elementar
+539 7/7 1 Falstad_comb:  or CMOS -elementar
+539 7/7 2 Falstad_comb:  AOI 2-2 -MOSFET
+539 7/7 3 Falstad_comb:  Meio somador 
+539 7/7 4 Falstad_comb:  inversor CMOS
+539 7/7 5 Falstad_comb:  nand CMOS
+539 7/7 6 Falstad_comb:  somador completo
+539 7/7 8 Falstad_comb:  nor CMOS
+539 9/7 12 Falstad_comb:  AOI 2-2 CMOS
+539 9/7 2 Falstad_comb:  AOI 2-2 corrigido com função logica -MOSFET
+539 9/7 5 Falstad_comb:  XNOR
+539 9/7 5 Falstad_comb:  XOR
+539 9/7 8 Falstad_comb:  XOR com NAND
+583 30/6 1 tinker: Exquisite Amberis
+599 25/6 5 chat: como faria pra funcionar sem o resistor então?
+607 15/7 3 Falstad_comb: Meio inversor NMOS
+607 15/7 3 Falstad_comb: Meio inversor PMOS
+607 15/7 5 Falstad_comb: Inversor (NOT)
+607 15/7 5 Falstad_comb: Porta Não-E (NAND)
+607 15/7 9 Falstad_comb: Porta Não-Ou (NOR)
+607 16/7 10 chat: e tem q questão do ponto flutuante
+607 16/7 8 chat: por causa do olho humano
+607 16/7 8 chat: porque dá pra fazer todas as outras a partir dessas
+607 23/7 2 chat: ajudou ponto tracado no SEG
+607 2/7 7 chat: Isso que Enock falou pra mim é verdade, eu uso o app e nunca tive problema
+607 2/7 7 chat: Jonathan, você precisa entrar pelo link que tem o código da turma, lá você coloca o nickname
+607 29/6 3 tinker: Meio inversor usando somente o PMOS
+607 29/6 4 chat: Baixei o aplicativo e entrei com a conta google institucional, ficou até fotinha ali
+607 30/7 2 chat: Prof, como que não confunde <= com atribuição ou condição?
+607 30/7 3 chat: então se eu quiser colocar nota >= 'b0111 também dá certo, né?
+607 6/7 3 chat: Botão direito no componente e editar
+607 6/7 8 chat: Gente eu acho que ele quer dizer q aquela primeira tabela é com transistores já que ele só pede portas elementares
+607 6/7 9 chat: o falstad tem hotkeys, N pra nmos e P pra pmos e w pro fio
+620 13/7 10 chat: professor, essas estruturas cmos ainda são amplamente utilizadas nas máquinas atuais? existem novidades nessa área de componetes?
+620 13/7 5 chat:  eu usava uma compressa de gelo pra esfriar meu laptop
+620 21/6 4 tinker: Amazing Curcan-Elzing -titulo
+620 23/7 2 chat: ajudou ponto tracado no SEG
+620 25/6 1 tinker: AND gate cmos -elementar
+620 25/6 1 tinker: OR gate cmos -elementar
+620 28/6 1 tinker: XNOR CMOS
+620 28/6 8 tinker: NOR gate cmos
+620 7/7 1 Falstad_comb: 3bit full adder utilizando mosfet com 2 saidas: sum e carry -elementar
+620 7/7 3 Falstad_comb: AOI using mosfet -mistura_inversor -conexão
+620 7/7 8 Falstad_comb: XNOR using NOR gates
+639 10/8 1 FPGA_comb:  classificador de nota -testar
+639 10/8 1 FPGA_comb:  display de 7 segmentos (lista 2) -nim/maiusculo
+639 13/7 11 Falstad_comb:  Demux 1:8
+639 13/7 6 Falstad_comb:  Codificador de prioridade 4:2
+639 13/7 8 Falstad_comb:  Mux 4:1
+639 14/7 10 Falstad_comb:  Gerador de paridade par
+639 14/7 10 Falstad_comb:  Verificador de paridade par
+639 15/7 2 Falstad_comb:  Porta XOR usando decodificador 2:4
+639 15/7 8 Falstad_comb:  Porta XNOR usando decodificador 2:4
+639 16/7 3 chat:  0.432 W
+639 16/7 3 chat:  350 Gop/J
+639 16/7 6 Falstad_comb:  Subtrator completo 3 bit -titulo
+639 16/7 8 chat: 1 watt = 1 j/s
+639 16/7 8 chat: sao as cores primarias
+639 1/7 1 tinker: AND -elementar
+639 23/7 10 chat: é algo relacionado ao numero de instruções?
+639 25/6 4 tinker: Inversor
+639 25/6 5 tinker: NAND
+639 26/6 4 tinker: Inversor
+639 2/7 1 tinker: OR -elementar
+639 27/6 1 tinker: Base (GRANDE)
+639 27/6 1 tinker: Base (PEQUENA)
+639 28/6 5 tinker: NAND
+639 28/6 8 tinker: NOR
+639 28/6 9 tinker: NAND 3 entradas
+639 29/6 3 tinker: Meio inversor pMOS
+639 30/6 1 tinker: AOI -function
+639 3/8 40 FPGA_comb:  expediente (1), agencia bancaria (2), estufa (3) e aeronave (4)  -if_else_logica
+639 6/7 4 Falstad_comb:  Inversor CMOS
+639 6/7 5 Falstad_comb:  Porta AND usando portas NOR
+639 6/7 5 Falstad_comb:  Porta AND usando portas NOR
+639 6/7 8 Falstad_comb:  Porta XNOR usando portas NOR
+639 6/7 8 Falstad_comb:  Porta XOR usando portas NAND
+639 7/7 12 Falstad_comb:  Porta NAND CMOS 4 entradas
+639 7/7 12 Falstad_comb:  Porta NOR CMOS 4 entradas
+639 7/7 3 Falstad_comb:  2-2 AOI [~((A & B) | (C & D))]
+639 7/7 6 Falstad_comb:  Porta NAND CMOS
+639 7/7 9 Falstad_comb:  Porta NAND CMOS 3 entradas
+639 7/7 9 Falstad_comb:  Porta NOR CMOS
+639 7/7 9 Falstad_comb:  Porta NOR CMOS 3 entradas
+639 8/7 5 Falstad_comb:  Full adder 3 bit -titulo
+654 12/7 80 livre: Limite prático de portas CMOS
+654 13/7 15 chat: acredito que seja a dissipação
+654 13/7 15 chat: se a temperatura não for controlada pode prejudicar o sistema?
+654 13/7 30 livre: energia Google para 2019 e grafico
+654 13/7 8 chat: acredito que sim a unidade da capacitância é farad
+654 15/7 10 Falstad_comb:  Somador Completo usando 74HC00 (NAND)
+654 15/7 10 Falstad_comb:  Somador Completo usando 74HC00 (NAND)
+654 15/7 10 Falstad_comb:  Somador Completo usando 74HC02 (NOR)
+654 15/7 8 Falstad_comb:  Gerador de Paridade Par
+654 15/7 8 Falstad_comb:  Verificador de Paridade Par
+654 16/7 10 chat: pegada de carbono causada pelo bitcoin por ano eh cerca de 64.18 Mt CO2
+654 16/7 4 chat: 75 M pixels ?
+654 16/7 4 chat: multiplicação 432 mj por segundo
+654 16/7 5 chat: 1920x1080
+654 16/7 5 chat: isso seria 10 elevado a 15 flops certo??
+654 1/7 1 tinker: AND 2 Entradas -elementar
+654 1/7 1 tinker: OR 2 Entradas -elementar
+654 19/7 150 livre: entrevista com funcion�rio da usina de Malta, acr�scimo na wikipedia
+654 20/7 3 chat: importancia-de-fpga-...-para-a-rede
+654 21/7 15 livre: 6 links interessantes sobre FPGA e GPU
+654 23/7 4 chat: ponto tracado no SEG
+654 2/7 4 tinker: Inversor (NOT)
+654 2/7 5 tinker: NAND 2 Entradas
+654 28/6 1 tinker: Base Grande
+654 28/6 1 tinker: Base Pequena
+654 28/6 9 tinker: NAND 3 Entradas
+654 29/6 1 tinker: XNOR 2 Entradas -elementar
+654 29/6 1 tinker: XOR 2 Entradas -elementar
+654 29/6 3 tinker: Meio Inversor nMOS
+654 29/6 3 tinker: Meio Inversor pMOS
+654 29/6 5 chat: sim
+654 3/8 12 FPGA_comb:  Fim de Expediente -variavel_parametro_saida
+654 3/8 30 FPGA_comb:  Lógica Combinatória -falta_if_else -variaveis_parametros_saida
+654 3/8 3 chat: um chip de CPU por exemplo é construído mais ou menos nesse modelo de várias "protoboards"?
+654 3/8 8 chat: mapa de karnaugh
+654 6/7 35 livre: Algoritmo mais eficiente para o cáculo de π
+654 6/7 3 chat: um inversor no falstad
+654 7/7 10 Falstad_comb:  NAND 3 Entradas
+654 7/7 13 Falstad_comb:  NAND 4 Entradas
+654 7/7 13 Falstad_comb:  NOR 4 Entradas
+654 7/7 1 Falstad_comb: AND 2 Entradas -elementar
+654 7/7 1 Falstad_comb: OR 2 Entradas -elementar
+654 7/7 3 Falstad_comb:  AND usando NAND
+654 7/7 3 Falstad_comb:  OR usando NOR
+654 7/7 4 Falstad_comb:  AOI 2-1 -função?
+654 7/7 4 Falstad_comb: Inversor
+654 7/7 5 Falstad_comb:  AND usando NOR
+654 7/7 5 Falstad_comb: NAND 2 Entradas
+654 7/7 5 Falstad_comb:  OR usando NAND
+654 7/7 8 Falstad_comb: NOR 2 Entradas
+654 7/7 8 Falstad_comb:  XNOR usando NOR
+654 7/7 8 Falstad_comb:  XOR usando NAND
+654 7/7 90 livre: Descarga Eletrostática e Componentes Eletrônicos
+654 7/7 9 Falstad_comb:  NOR 3 Entradas
+654 9/7 12 chat: Encontrei que a rede do bitcoin consome um total de 113,89 TWh por ano, enquanto a indústria do ouro utiliza cerca de 240,61 TWh para o mesmo período.
+675 20/7 2 chat: intel possui FPGA
+675 30/7 5 chat: é pq o programa já traduz direto pra binário
+675 3/8 3 chat: China banindo mineração de bitcoin por problemas ambientais: https://livecoins.com.br/provincia-china-bane-mineracao-bitcoin-impacto-ambiental/
+675 8/7 1 Falstad_comb: Meio-Somador usando cmos -elementar
+675 8/7 1 Falstad_comb: Meio-Subtractor usando cmos -elementar
+675 8/7 1 Falstad_comb: Porta AND com cmos -elementar
+675 8/7 1 Falstad_comb: Porta AND de 3 entradas com cmos -elementar
+675 8/7 1 Falstad_comb: Porta NAND com 3 entradas usando cmos -elementar
+675 8/7 1 Falstad_comb: Porta NOR com 3 entradas usando cmos -elementar
+675 8/7 1 Falstad_comb: Porta OR com 3 entradas usando cmos -elementar
+675 8/7 1 Falstad_comb: Porta OR usando cmos -elementar
+675 8/7 1 Falstad_comb: Porta XNOR usando cmos -elementar
+675 8/7 1 Falstad_comb: Porta XOR usando cmos -elementar
+675 8/7 1 Falstad_comb: Somador-Completo usando cmos -elementar
+675 8/7 1 Falstad_comb: Subtractor-Completo usando cmos -elementar
+675 8/7 23 Falstad_comb: Somador de 4x4 bits
+675 8/7 5 Falstad_comb: Porta NAND com cmos
+675 8/7 8 Falstad_comb: Porta NOR usando cmos 
+711 13/7 1 Falstad_comb: Porta XNOR AOI ((A.B)+(A'.B'))-elementar
+711 13/7 1 Falstad_comb: porta XOR AOI ((A.B')+(A'.B)) -elementar
+711 13/7 3 chat: a dissipação da energia ocorre naturalmente quando há corrente, pois os fios esquentam
+711 13/7 5 Falstad_comb: Porta NOT
+711 13/7 6 Falstad_comb: Porta NAND
+711 13/7 8 chat: então só tem dissipação qnd o gate está carregando ou descarregando, depois, não tem mais,idealmente
+711 13/7 8 Falstad_comb: Multiplexador 4x1
+711 13/7 9 Falstad_comb: Porta NOR
+711 16/7 8 chat: porque a partir daí o cérebro n nota muito a diferença
+711 20/7 10 Falstad_comb: Somador Completo (usando portas NAND)
+711 20/7 60 Falstad_comb: Multiplicador 3 bit x 3 bit (saída 6 bit)
+711 25/6 8 chat: https://youtu.be/Bfvyj88Hs_o
+711 2/7 1 tinker: Porta AND -elementar
+711 2/7 1 tinker: Porta OR -elementar
+711 2/7 3 tinker: Meio inversor (NMOS)
+711 2/7 3 tinker: Meio inversor (PMOS)
+711 2/7 4 tinker: Porta NOT (CMOS)
+711 2/7 5 tinker: Porta NAND
+711 2/7 8 tinker: Porta NOR
+711 2/7 8 tinker: Porta XNOR (usando 74HC02)
+711 2/7 8 tinker: Porta XOR (usando 74HC00)
+711 6/7 1 Falstad_comb: (A.B')+(A'.B) - Porta XOR AOI de duas entradas -elementar
+711 6/7 4 Falstad_comb: Porta NOT
+711 6/7 5 Falstad_comb: Porta AND (para montagem usando 74HC02)
+711 6/7 5 Falstad_comb: Porta NAND
+711 6/7 5 Falstad_comb: Porta OR (para montagem com 74HC00)
+711 6/7 8 Falstad_comb: Porta NOR
+711 6/7 8 Falstad_comb: Porta XNOR (para montagem com 74HC02)
+711 6/7 8 Falstad_comb: Porta XOR (para montagem com 74HC00)
+711 8/8 1 FPGA_comb: Lista de exercícios Comb (expediente, agência, estufa e aeronave) -testar
+712 10/8 14 FPGA_comb:  Questao 2 lista OAC
+712 10/8 25 FPGA_comb:  Fim de expediente - Agência bancária - Estufa - Lavatórios da aeronave -falta if..else
+712 12/7 20 livre: Cálculo do valor de π
+712 13/7 11 Falstad_comb:  Demux 1:8
+712 13/7 11 Falstad_comb:  Encoder 8:3
+712 13/7 15 chat: aumentar a tensão nesses circuitos gera um aumento de temperatura? Porque overclock a tensão sobe e a temperatura também
+712 13/7 15 livre: grafico energia Google
+712 13/7 20 chat: o aumento da temperatura pode aumentar o consumo energético professor?
+712 13/7 8 chat: sobre controle térmico em processadores multi-core: https://www.cse.wustl.edu/~lu/papers/emsoft12.pdf
+712 13/7 8 Falstad_comb:  Demux 1:4
+712 15/7 12 Falstad_comb:  Decoder 3:8
+712 21/7 50 livre: Efici�ncia energetica comparativa de linguagens de software -meio_fora_escopo
+712 2/7 4 tinker: Inverter
+712 2/8 15 FPGA_comb:  Símbolos A até º no display	
+712 29/6 5 chat: a chave é o fio verde e o multimetro essa ponta vermelha ne?
+712 29/6 5 chat: forbidden zone
+712 29/6 6 chat: bitcoin?
+712 30/7 15 FPGA_comb:  Notas dos alunos
+712 30/7 5 chat: Dennis Ritchie e Ken Thompson
+712 6/7 3 Falstad_comb:  AOI 4 entradas(2-2) -função?
+712 6/7 4 Falstad_comb:  AOI 3 Entradas -funcao?
+712 6/7 5 Falstad_comb:  AND usando portas NOR
+712 6/7 5 Falstad_comb:  OR usando portas NAND
+712 6/7 6 Falstad_comb:  Demux 3:8 -titulo
+712 7/7 10 Falstad_comb:  NAND 3 INPUT
+712 7/7 10 Falstad_comb:  NOR Cmos 3 input 
+712 7/7 1 Falstad_comb:  AND usando Pmos e Cmos -elementar
+712 7/7 1 Falstad_comb:  OR usando NMOS e PMOS -elementar
+712 7/7 2 Falstad_comb:  AOI 2-2 -funçao -MOSFET
+712 7/7 8 Falstad_comb:  XNOR usando NOR
+712 7/7 8 Falstad_comb:  XOR usando NAND
+712 7/8 2 FPGA_comb:  Fim de expediente - Agência bancária - Estufa - Lavatórios da aeronave -pouco_teste
+715 6/7 4 Falstad_comb: Somador Full Adder
+743 16/7 3 chat: Carbon footprint da Google: https://sustainability.google/commitments/
+743 1/7 1 tinker: AND -elementar
+743 1/7 1 tinker: OR -elementar
+743 1/7 5 tinker: NAND
+743 1/7 8 tinker: NOR
+743 1/8 30 FPGA_comb:  Circuitos da pagina OAC.Comb -if_eldr -parametro_variavel_saida
+743 25/6 4 tinker: Seguindo exemplo da aula
+743 29/6 4 tinker: NOT
+743 30/7 15 FPGA_comb:  Coloque as entradas w,x,y,z em chaves SWI[3:0] e mostre os dígitos hexadecimais correspondentes no display
+743 30/7 8 chat: porque ele é uma entrada não uma saida
+743 6/8 8 chat: consumo de energia
+743 9/8 28 FPGA_comb:  Tabela da pagina http:lad.ufcg.edu.br/loac/index.php?n=OAC.Soma -numeros_magicos
+751 20/7 4 chat: raspery pi é uma placa de fpga? mas um arduino é?
+751 20/7 4 chat: sobre código mais limpo e legivel https://www.treinaweb.com.br/blog/dicas-para-manter-seu-codigo-limpo-e-legivel/
+751 20/7 5 chat:  a linguagem lógica tamém entra na linguagem formal né?
+751 20/7 5 chat: muito quando o assunto é fpga, tipo intel, altera, xilinx
+751 20/7 6 chat:  link sobre fpga https://en.wikipedia.org/wiki/Field-programmable_gate_array https://www.embarcados.com.br/fpga/
+751 20/7 8 chat: FPGA Por se tratar de hardware pode ter, por exemplo, N cálculos rodando em paralelo Algo completamente impossível para um software 
+751 30/7 3 chat: qual a diferença de always_comb pra always @*?
+751 3/8 10 livre: links interessantes sobre FPGA
+751 3/8 3 chat:  A GPU também funciona assim?
+751 3/8 4 chat: mapa de karnaugh
+751 3/8 5 chat: GPU: muitos processadores paralelos - FPGA: qualquer implementação digital
+751 3/8 6 chat: para quem quiser baixar o quartus: https://fpgasoftware.intel.com/
+761 1/7 4 tinker: Inversor CMOS
+761 2/7 3 tinker: Portas lógicas CMOS NAND (74HC00)
+761 2/7 4 tinker: Porta AND usando 74HC00 CMOS NAND
+761 2/7 5 chat: se eu conectar o source do nmos no positivo ele não funciona?
+761 6/7 8 chat: depois q coloca o objeto no background usa esc, alt usa p mover o background inteiro
+763 25/6 1 tinker: AND -elementar
+763 25/6 5 tinker: NAND
+763 30/6 1 tinker: AOI -function
+763 30/6 8 tinker: NOR
+767 2/7 1 tinker: AND -elementar
+767 2/7 5 tinker: NAND
+794 20/7 10 Falstad_comb: Porta XNOR usando NOR
+794 20/7 1 Falstad_comb:  AND usando CMOS -elementar
+794 20/7 1 Falstad_comb:  OR feito com CMOS -elementar
+794 20/7 1 Falstad_comb: Porta XOR usando NAND 
+794 20/7 2 Falstad_comb: Porta AND usando NAND 
+794 20/7 2 Falstad_comb: Porta AND usando NOR 
+794 20/7 2 Falstad_comb: Porta OR usando NAND 
+794 20/7 2 Falstad_comb: Porta OR usando NOR 
+794 20/7 5 Falstad_comb:  Porta NOT usando CMOS
+794 20/7 6 Falstad_comb: NAND usando CMOS
+794 20/7 9 Falstad_comb: Circuito NOR usando CMOS
+794 20/7 9 Falstad_comb: Porta XNOR usando NAND 
+794 20/7 9 Falstad_comb: Porta XOR usando NOR 
+794 20/7 9 Falstad_comb: XOR usando NAND  
+794 21/7 3 Falstad_comb: A implica B - Implicador
+794 21/7 3 Falstad_comb: Meio Inversor usando NMOS 
+794 21/7 3 Falstad_comb: Meio Inversor usando PMOS 
+794 21/7 9 Falstad_comb: Meio Somador  
+794 21/7 9 Falstad_comb: NAND de 3 entradas usando CMOS 
+794 25/6 1 tinker: Cool Luulia-Waasa
+795 8/7 1 Falstad_comb: CIRCUITO AND CMOS -elementar
+795 8/7 1 Falstad_comb: CIRCUITO OR CMOS -elementar
+795 8/7 1 Falstad_comb: PORTA LOGICA OR CMOS -elementar
+795 8/7 4 Falstad_comb: CIRCUITO NAND CMOS
+795 8/7 4 Falstad_comb: NOT CMOS
+795 8/7 8 Falstad_comb: CIRCUITO NOR CMOS
+817 13/7 10 chat: Acredito que n Franklin
+817 13/7 10 chat: IA pra projetar os circuitos integrados Pra ficar mais otimizado
+817 13/7 15 chat: acho que é dissipacao de calor
+817 13/7 5 chat: Acho que ele quis dizer pq que nao passa corrente no source do pmos2
+817 13/7 8 chat: Professor , a quantidade de transistores por cm2 em circuitos está chegando ao limite?
+817 16/7 10 Falstad_comb:  Porta AOI 2-1 : not ( A or ( B and C) )
+817 16/7 10 Falstad_comb:  Somador completo usando 4xNAND e 4xNOR
+817 16/7 4 Falstad_comb:  Meio Inversor NMOS
+817 16/7 4 Falstad_comb:  Meio Inversor PMOS
+817 16/7 5 Falstad_comb:  Inversor CMOS
+817 16/7 5 Falstad_comb:  Porta AND usando portas NOR
+817 16/7 5 Falstad_comb:  Porta OU a partir de portas NAND (74hc00)
+817 16/7 6 Falstad_comb:  Porta NAND CMOS
+817 16/7 8 chat: joule
+817 16/7 8 chat: Nao é o contrario ? W = j/s
+817 16/7 8 Falstad_comb:  Porta XNOR usando NOR
+817 16/7 8 Falstad_comb:  Porta XOR usando portas NAND
+817 16/7 9 chat: Professor , mas ai também precisaria milhares de fpga pra fazer o mesmo que o supercomputador , entao nesse caso nao gastaria mais energia nao?
+817 16/7 9 Falstad_comb:  Porta NOR CMOS
+817 1/7 3 tinker: Meio Inversor NMOS
+817 1/7 3 tinker: Meio Inversor PMOS
+817 25/6 3 chat: Esse pino do meio da chave é oq ?
+817 25/6 5 chat: No caso o Pmos deixa a corrente passar com baixa tensão?
+817 25/6 8 chat: dá pra rotacionar apertando R
+817 29/6 3 chat: Professor o pino da direita é o drain?
+817 29/6 5 chat: isso
+817 6/8 4 chat: 16^2
+817 6/8 4 chat: tem alguma situaçao que é inevitavel usar ponto flutuante?
+834 19/7 5 Falstad_comb: full adder 4 bits -titulo != função
+834 19/7 8 Falstad_comb: Multiplicador 4 bits -funcionalidade incorreta
+834 20/7 20 Falstad_comb: adder de 3 bits
+851 10/8 1 FPGA_comb:  Representação serial da palavra 11011010, escolhendo-se na entrada qual bit da palavra mostrar, exercicio 4 OAC -git_pull
+851 13/7 20 chat: sobre esse limite https://ieeexplore.ieee.org/document/1240081
+851 13/7 4 chat: Farad é uma homenagem ao Faraday
+851 13/7 5 chat: A capacitância então seria usada por poder dissipar mais rápido o campo, professor?
+851 13/7 5 chat: esse tempo até parar foi o tempo de carregar o capacitor?
+851 13/7 8 chat: Sobre o Thermal Throttling: http://www.dicasparacomputador.com/thermal-throttling-que-como-funciona
+851 13/7 8 chat: water coolers no consumo de energia https://ieeexplore.ieee.org/abstract/document/7506669
+851 13/8 15 FPGA_comb:  Circuito ativador que seleciona e ativa um entre 4 saídas, baseado na questão 5 da lista de exercicios de OAC 
+851 13/8 15 FPGA_comb:  Display de situação do aluno de acordo com a nota 
+851 13/8 15 FPGA_comb: Exercicio 1 da lista 2 de Oac, com sensores de volume de agua. 
+851 13/8 1 FPGA_comb:  Display de 7 segmentos -teste
+851 9/7 1 Falstad_comb: Porta AND CMOS -elementar
+851 9/7 1 Falstad_comb: Porta OR CMOS -elementar
+851 9/7 4 Falstad_comb: Inversor CMOS
+851 9/7 5 Falstad_comb: Porta NAND CMOS
+851 9/7 8 Falstad_comb: Porta NOR CMOS
+856 28/6 3 tinker: Cirtuito da Aula Sincrona 25/06 Inversor com portas NMOS PMOS -titulo
+856 6/7 10 Falstad_comb:  Subtrador completo 1 bit -titulo
+856 6/7 11 Falstad_comb:  Demux 1:8
+856 6/7 11 Falstad_comb:  Mux 8:1
+856 6/7 15 Falstad_comb:  Subtrador 2 bits cada entrada
+856 6/7 25 Falstad_comb:  Subtrador 4 bits cada entrada
+856 6/7 5 Falstad_comb:  Meio Subtrador
+857 12/7 3 Falstad_comb:  Meio Inversor NMOS
+857 12/7 3 Falstad_comb:  Meio Inversor PMOS
+857 12/7 4 Falstad_comb:  Circuito AOI -função?
+857 12/7 4 Falstad_comb:  Circuito OAI -função?
+857 12/7 4 Falstad_comb:  Inversor CMOS
+857 12/7 6 Falstad_comb:  Circuito NAND CMOS
+857 12/7 9 Falstad_comb:  Circuito NOR CMOS
+857 13/7 10 Falstad_comb:  Circuito Somador Completo usando NAND(74HC00)
+857 13/7 10 Falstad_comb:  Circuito Somador Completo usando NOR(74HC02)
+857 13/7 4 Falstad_comb:  Circuito Meio Somador
+857 13/7 5 Falstad_comb:  Circuito AND usando portas NOR(74HC02)
+857 13/7 5 Falstad_comb:  Circuito OR usando portas NAND (74HC00)
+857 13/7 6 Falstad_comb:  Circuito Somador Completo usando XOR(74HC86), AND(74HC08) e OR(74HC32)
+857 13/7 8 Falstad_comb:  Circuito XNOR usando portas NOR (74HC02)
+857 13/7 8 Falstad_comb:  Circuito XOR usando portas NAND (74HC00)
+857 16/7 3 chat: O SDumont possui capacidade instalada de processamento na ordem de 5,1 Petaflop/s
+858 10/8 1 FPGA_comb:  Algoritmo mais eficiente para o cálculo de π -conflito lcd_b -codigo_em_comentario
+858 10/8 30 FPGA_comb:  Display de 7 segmentos -vector
+858 12/7 1 Falstad_comb: Circuito registrador de deslocamento -reenviar
+858 12/7 1 Falstad_comb: Circuito registrador paralelo -reenviar
+858 12/7 1 Falstad_comb: Multiplicador - 3 BITS -colafOdxtxk
+858 12/7 1 Falstad_comb: Paridade Serial -renviar
+858 12/7 70 livre: Cálculo da Projeção em 2019, 2020, e 2021 do Gráfico de Consumo de Energia do Google
+858 12/8 50 FPGA_comb:  Soma, Subtração e Multiplicação, -bit_sinal -parametros_mesma_coisa -comentarios -<= -reg
+858 13/7 10 chat: limita a voltagem no processador, diminuindo o clock e a temperatura
+858 13/7 10 chat: maior será a potência por ele dissapada
+858 13/7 15 chat: As CPUs mais modernos do pc tem um sistema de thermal throttling pra evitar que ele superaqueça
+858 13/7 1 Falstad_comb: Simulador - Aula sobre Falstad
+858 13/7 25 livre: consumo de energia de bitcoin e grafico Google
+858 13/7 25 livre: onde foi obtido os dados utilizados no gráfico de consumo de energia do Google
+858 13/7 5 chat: o pmos no not2 é para não ter perigo de dar curto-circuito?
+858 13/7 8 chat: Tem uns servidores da Amazon que eles tão colocando no fundo do oceano, pra economizar com o resfriamento
+858 14/7 4 Falstad_comb: (A+B) & (C+D) - OAC
+858 14/7 4 Falstad_comb: Circuito (A.B) + (B.C) - OAC
+858 14/7 80 livre: copyright gráfico de consumo
+858 14/7 9 Falstad_comb: Circuito ~(B&C + A)
+858 14/7 9 Falstad_comb: Porta NOR ¬(A+B)
+858 15/7 10 Falstad_comb: Gerador e Comparador de Digito de Paridade
+858 15/7 1 Falstad_comb: 2:4 decoder implementation
+858 15/7 1 Falstad_comb: Chave de Carro -reenviar -JK
+858 15/7 1 Falstad_comb: Contador assíncrono crescente ou decrescente -reenviar - assincrono
+858 15/7 1 Falstad_comb: Contador síncrono -reenviar 
+858 15/7 1 Falstad_comb: Flip-Flop Cmos -reenviar -rs
+858 15/7 1 Falstad_comb: Flip-Flop -reenviar -portas
+858 15/7 1 Falstad_comb: Inversor Cmos -NMOS
+858 15/7 20 Falstad_comb: Multiplicador 2 bits
+858 15/7 3 Falstad_comb: Multiplicador - 3 BITS com Pipelining -reenviar -pipelining?
+858 15/7 4 Falstad_comb: Decodificador 2:1
+858 15/7 4 Falstad_comb: Porta Xor
+858 15/7 5 Falstad_comb: (A^B)+C+(B^D)
+858 15/7 5 Falstad_comb: (A+B).(C+D)
+858 15/7 6 Falstad_comb: Nand Cmos
+858 15/7 8 Falstad_comb: Decodificador com Enable
+858 15/7 9 Falstad_comb: ~(A+B)
+858 15/7 9 Falstad_comb: ((~A&~B) | (~A&~C))
+858 16/7 10 Falstad_comb: Full Adder (Somador Completo)
+858 16/7 3 chat:  https://projetocolabora.com.br/ods12/a-perigosa-pegada-de-carbono-digital/
+858 16/7 8 Falstad_comb: Comparador 4x4 bits
+858 16/7 8 Falstad_comb: Demultiplexador 1-4
+858 1/7 1 tinker: 2-1 AOI gate CMOS -function
+858 1/7 1 tinker: 2 Bit Full Adder -chaves falta conexao
+858 1/7 1 tinker: Full Adder - 4 Bit -chaves simples
+858 1/7 1 tinker: Porta AND com CMOS -elementar
+858 1/7 1 tinker: Porta OR com CMOS -elementar
+858 1/7 4 tinker: CMOS Porta NOT com pMos e nMos
+858 1/7 4 tinker: Inversor CMOS 
+858 1/7 4 tinker: Porta NAND usando CMOS
+858 1/7 8 tinker: Porta NOR com transistores pMOS e nMOS
+858 20/7 10 chat: Raspberry Pi é apenas uma mini versão do seu computador. O FPGA é um chip reconfigurável que você pode usar para fazer qualquer chip (digital)
+858 20/7 12 Falstad_comb: Decodificador (Monitorador de temperatura)
+858 20/7 12 livre: contador das emiss�es CO2 da Google
+858 20/7 5 chat: ..FPGA pode ser personalizada no nível da porta lógica, enquanto a GPU só pode ser programada usando seu conjunto de instruções vetoriais 
+858 22/7 15 livre: alguns fatos interessantes sobre computa��o dentro de um autom�vel
+858 23/7 3 chat: Tem como testar o código localmente? antes de importar no site?
+858 25/6 5 chat: cada transistor interpreta de uma maneira diferente
+858 2/7 3 tinker: Porta Lógica Integrada - AND
+858 2/7 3 tinker: Porta Lógica Integrada - NAND
+858 2/7 4 chat: Professor, qual a diferença entre os tipos de NMOS e PMOS que tem no Tinkercad?
+858 2/7 4 chat: tem um link da sala
+858 2/8 100 livre: Custo de Energia e Computação em nuvem
+858 30/7 3 chat: criar um arquivo .sv em um outro arquivo?
+858 30/7 4 chat: binário
+858 3/8 3 chat: o nome do arquivo que deverá enviar para todos os exercícios em systemverilog é top.sv?
+858 5/8 1 FPGA_comb:  Somador Multiplicador -git_pull
+858 5/8 35 FPGA_comb:  lista de exercício lógica combinatória -falta_if_else
+858 6/7 3 chat: só apertar "copy to clipboard" que copia tudo
+858 9/7 5 chat: 9,1 mil?
+858 9/7 5 chat: https://www.nytimes.com/2021/03/09/business/dealbook/bitcoin-climate-change.html
+858 9/7 8 chat: O Bitcoin usa mais eletricidade anualmente do que toda a Argentina
+858 9/7 8 chat: O Bitcoin usa mais eletricidade por transação do que qualquer outro método conhecido pela humanidade
+858 9/7 8 chat: Se fosse um país, o Bitcoin estaria em 28º lugar no consumo global de energi
+875 26/6 1 tinker: Swanky Bojo-Blorr
+893 11/8 0 FPGA_comb: HDL: Lógica combinatória  -if_sem_else
+893 13/7 1 Falstad_comb: CMOS AND -elementar
+893 13/7 1 Falstad_comb: CMOS OR -elementar
+893 13/7 5 Falstad_comb: CMOS NOT
+893 13/7 6 Falstad_comb: CMOS NAND
+893 13/7 9 Falstad_comb: CMOS NOR
+893 1/7 1 tinker: AOI -function
+893 1/7 1 tinker: CMOS AND -elementar
+893 1/7 3 tinker: somador completo 74HC00 74HC02 -voltimetro desconectado?(fio branco)
+893 1/7 4 tinker: Inversor
+893 1/7 5 tinker: NAND
+893 1/7 5 tinker: porta OU (OR) usando o 74HC00
+893 1/7 8 tinker: PORTA XOR 74HCOO
+893 2/7 1 tinker: CMOS OR -elementar
+893 2/7 8 tinker: CMOS NOR
+893 6/7 4 chat: Clica espaço p voltar pra edição
+946 20/7 10 chat: pq é complemento de 2
+946 20/7 10 chat: tem o M1 da apple saiu de x86 pra ARM - era 15, mas perdeu 5 centavos colocando: M1 é muito bom pra notebooks, mas pra mais alta performance o X86 é melhor
+946 9/7 10 chat: 9100000000
+946 9/7 10 chat: 9 bi de R$
+951 13/7 10 chat: professor, esse calor gerado, o quão importante ele é no sistema?
+951 13/7 6 chat: https://www.americanas.com.br/produto/2973357090?opn=YSMESP
+951 16/7 4 chat: A partir de 30 a gnt n reconhece mais
+951 20/7 3 chat: Professor, a comunicação entre maquinas como o byte code gerado pelo javac tbm eh considerado uma linguagem?
+951 23/7 3 chat: 208 esses warnings são oq professor?
+951 25/6 25 chat: sou eu (corrente direta passando pelos LED)
+951 25/6 3 tinker: Start Simulating -titulo
+951 30/7 3 chat: binario
+951 30/7 3 chat: pra colocar em decimal poderiam colocar 'd
+951 30/7 5 chat: Dennis Ritchie
+970 20/7 10 Falstad_comb: Encoder 3X8
+970 20/7 11 Falstad_comb: MUX de 8 entradas
+971 2/7 1 tinker: AND com pMOS e nMOS -elementar
+971 2/7 4 tinker: Inversor completo com pMOS e nMOS
+971 2/7 5 tinker: NAND com pMOS e nMOS
+971 2/7 8 tinker: NOR com pMOS e NMOS
+971 2/8 15 FPGA_comb:  Classificador de nota
+971 30/6 3 tinker: Meio Inversor Usando nMOS
+971 30/6 3 tinker: Meio Inversor Usando pMOS
+971 6/8 30 FPGA_comb:  Circuitos Combinacionais (Expediente, Agencia Bancaria, Estufa e Aviao) -if_else_sem_logica
+971 9/7 10 Falstad_comb:  Full-adder usando apenas gates NAND e NOR
+971 9/7 4 Falstad_comb:  Inversor com nMOS e pMOS
+971 9/7 7 Falstad_comb:  Half-Adder apenas usando NAND gates
+971 9/7 7 Falstad_comb:  NOR com nMOS e pMOS -conexão falha
+971 9/7 8 Falstad_comb:  Circuito XNOR utilizando apenas NORs
+971 9/7 8 Falstad_comb:  Circuito XOR utilizando apenas portas NAND
+971 9/7 8 Falstad_comb:  NAND com nMOS e pMOS
+971 9/8 30 FPGA_comb:  Classificador de Notas (Situacao e nota)
+982 25/6 12 chat: utilizando um pmos, creio eu
+982 25/6 5 chat: (Tinkercad) só precisa fazer, Wesley
+984 12/7 5 Falstad_comb:  Porta AND usando NOR (74HC02)
+984 12/7 5 Falstad_comb:  Porta OR usando NAND(74HC00)
+984 19/7 8 Falstad_comb:  XNOR com 74hc02 (4 portas NOR)
+984 19/7 8 Falstad_comb:  XOR com 74hc00 (4 portas NAND)
+984 20/7 10 Falstad_comb:  Somador completo usando NAND
+984 20/7 10 Falstad_comb:  Somador completo usando NOR
+984 20/7 8 Falstad_comb:  Decoder 2:4
+984 2/7 4 tinker: Inversor CMOS
+984 2/7 4 tinker: NAND
+984 9/7 3 Falstad_comb:  ???
+984 9/7 4 Falstad_comb:  Meio inversor NMOS
+984 9/7 4 Falstad_comb:  Meio inversor PMOS
+984 9/7 6 Falstad_comb:  Porta NAND CMOS
+984 9/7 9 Falstad_comb:  Porta NOR
+984 9/8 40 FPGA_comb:  Excercício "Lógica combinatória" -variaveis_parametros_saida -if_else_fora_aplicacao
+989 25/6 10 chat: não ta mais gastando corrente da fonte
+989 25/6 4 chat: so ir no guia de transistores e portas logicas
+992 13/7 5 chat: por que a carga não passa para o not 2 tambem?
+992 16/7 3 chat: noticiado que o santos dumont iria ser disponibilizado para ajudar no combate do corona virus nas pesquisas
+992 16/7 8 chat: esse computador gasta mais de 500 mil reais de energia
+992 30/7 2 chat: pra que esse 'b?
+999 13/7 1 Falstad_comb:  flip-flop CMOS sem show bulk -reenviar -sr
+999 13/7 1 Falstad_comb:  multiplicador 3 bits -colafCNbhKo
+999 13/7 20 Falstad_comb:  multiplicador 2 bits
+999 13/7 4 Falstad_comb:  inversor CMOS MOSFET
+999 13/7 4 Falstad_comb:  multiplexador 2:1 
+999 13/7 5 Falstad_comb:  inversor CMOS sem show bulk
+999 13/7 5 Falstad_comb:  meio somador
+999 13/7 6 Falstad_comb:  NAND CMOS sem show bulk
+999 13/7 7 Falstad_comb:  XOR CMOS sem show bulk -mistura
+999 13/7 8 Falstad_comb:  somador completo
+999 13/7 8 Falstad_comb:  XNOR usando NOR
+999 13/7 8 Falstad_comb:  XOR usando NAND
+999 13/7 9 Falstad_comb:  NOR CMOS sem show bulk
+999 15/7 1 Falstad_comb:  meio inversor PMOS sem show bulk -entrada conectada com saída
+999 15/7 1 Falstad_comb:  meio inversor PMOS sem show bulk -entrada em curto
+999 1/7 10 tinker: somador completo usando 74HC00 e 74HC02
+999 1/7 1 tinker: porta AOI -function
+999 1/7 1 tinker: porta ou -elementar
+999 1/7 1 tinker: template
+999 1/7 5 tinker: porta não-e
+999 1/7 8 tinker: porta não-ou
+999 1/7 8 tinker: porta XOR usando 1 exemplar de 74HC00
+999 25/6 15 chat: sou eu (colocar na protoboard para poder rotacionar)
+999 25/6 4 tinker: inversor CMOS
+999 2/7 10 chat: quando o senhor bota "meio inversor" seria oq? não achei nem no livro algo sobre isso
+999 2/7 1 tinker: porta e -elementar
+999 2/7 3 tinker: meio inversor usando somente o NMOS
+999 2/7 3 tinker: meio inversor usando somente o PMOS
+999 2/7 3 tinker: porta lógica integrada
+999 2/7 5 tinker: porta OU (OR) usando o 74HC00
+999 29/6 8 chat: http://lad.ufcg.edu.br/loac/index.php?n=OAC.Protoboard
+999 30/6 4 tinker: inversor
+999 6/7 1 Falstad_comb:  porta and -elementar
+999 6/7 1 Falstad_comb:  porta or -elementar
+999 6/7 5 Falstad_comb:  porta not
