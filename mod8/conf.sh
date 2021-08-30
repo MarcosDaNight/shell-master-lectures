@@ -21,7 +21,15 @@ RED="\044[31;1m"
 #------------------------------------------------------------------------------------#
 
 # --------------------------------------Functions----------------------------------------------#
-#
+defineParameters () {
+	local parameter="$(echo $1 | cut -d = -f 1)"
+	local value="$(echo $1 | cut -d = -f 2)"
+
+	case "$parameter" in
+		USE_COLORS)   USE_COLORS="$value"     ;;
+		USE_UPPERCASE) USE_UPPERCASE="$value" ;;
+	esac
+}
 #
 # ------------------------------------------------------------------------------------#
 #
@@ -30,10 +38,12 @@ while read -r line
 do
 	[ "$(echo $line | cut -c1)" = "#" ] && continue
 	[ ! "$line" ] && continue
-	echo "$line"
+	defineParameters "$line"
 done < "$FILE_CONFIG"
 
 
+echo "Value for use colors: $USE_COLORS"
+echo "Value for use uppercase: $USE_UPPERCASE"
 # ------------------------------------------------------------------------------------#
 #
 
