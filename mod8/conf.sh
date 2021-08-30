@@ -26,8 +26,8 @@ defineParameters () {
 	local value="$(echo $1 | cut -d = -f 2)"
 
 	case "$parameter" in
-		USE_COLORS)   USE_COLORS="$value"     ;;
-		USE_UPPERCASE) USE_UPPERCASE="$value" ;;
+		USE_COLORS)   USE_COLORS=$value     ;;
+		USE_UPPERCASE) USE_UPPERCASE=$value ;;
 	esac
 }
 #
@@ -41,9 +41,10 @@ do
 	defineParameters "$line"
 done < "$FILE_CONFIG"
 
+[ "$USE_UPPERCASE" -eq 1 ] && MESSENGER="$(echo -e $MESSENGER | tr [a-z] [A-Z])"
+[ "$USE_COLORS" -eq 1 ] && MESSENGER="$(echo -e ${GREEN}$MESSENGER)"
 
-echo "Value for use colors: $USE_COLORS"
-echo "Value for use uppercase: $USE_UPPERCASE"
+echo "$MESSENGER"
 # ------------------------------------------------------------------------------------#
 #
 
