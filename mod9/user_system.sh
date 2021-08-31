@@ -48,8 +48,29 @@ RED="\033[31;1m"
 # ------------------------------------------------------------------------------------#
 
 # --------------------------------------Functions----------------------------------------------#
-#
-#
+
+ShowUsersOnScreen() {
+	local id="$(echo $1 | cut -d : -f 1)"	
+ 	local name="$(echo $1 | cut -d : -f 2)"
+	local email="$(echo $1 | cut -d : -f 3)"
+
+	echo -e "${GREEN}Id: ${RED}$id"
+	echo -e "${GREEN}Name: ${RED}$name"
+	echo -e "${GREEN}Email: ${RED}$email"
+}
+
+ListUsers() {
+	while read -r line
+	do
+		[ "$(echo $line | cut -c1)" = "#" ] && continue
+		[ ! "$line" ]                       && continue
+	
+		ShowUsersOnScreen "$line"		
+	done < "$DATA_BASE_FILE"
+}
+
+
+
 # ------------------------------------------------------------------------------------#
 #
 # --------------------------------------Execution----------------------------------------------#
@@ -67,8 +88,8 @@ RED="\033[31;1m"
 
 
 
-#
 
-3
-#
+
+
+
 
