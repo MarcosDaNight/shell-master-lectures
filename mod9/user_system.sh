@@ -75,6 +75,18 @@ UserExistsValidate() {
 	grep -i -q "1$SEP" "$DATA_BASE_FILE"
 }
 
+InsertUser() {
+	local name="echo $1 | cut -d $SEP -f 2"
+	
+	if UsersExistValidate "$name"
+	then
+		echo "ERROR. User already exists" 
+	else
+		echo "$*" >> "$DATA_BASE_FILE"
+		echo "User sucessful registred"
+	fi
+}
+
 
 # ------------------------------------------------------------------------------------#
 #
