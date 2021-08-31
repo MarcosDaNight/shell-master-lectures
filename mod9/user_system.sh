@@ -35,6 +35,8 @@
 #--------------------------------------Variables----------------------------------------------#
 DATA_BASE_FILE="data_base.txt"
 
+SEP=:
+
 GREEN="\033[32;1m"
 RED="\033[31;1m"
 # ------------------------------------------------------------------------------------#
@@ -50,9 +52,9 @@ RED="\033[31;1m"
 # --------------------------------------Functions----------------------------------------------#
 
 ShowUsersOnScreen() {
-	local id="$(echo $1 | cut -d : -f 1)"	
- 	local name="$(echo $1 | cut -d : -f 2)"
-	local email="$(echo $1 | cut -d : -f 3)"
+	local id="$(echo $1 | cut -d $SEP -f 1)"	
+ 	local name="$(echo $1 | cut -d $SEP -f 2)"
+	local email="$(echo $1 | cut -d $SEP -f 3)"
 
 	echo -e "${GREEN}Id: ${RED}$id"
 	echo -e "${GREEN}Name: ${RED}$name"
@@ -69,6 +71,9 @@ ListUsers() {
 	done < "$DATA_BASE_FILE"
 }
 
+UserExistsValidate() {
+	grep -i -q "1$SEP" "$DATA_BASE_FILE"
+}
 
 
 # ------------------------------------------------------------------------------------#
