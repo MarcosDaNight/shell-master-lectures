@@ -36,7 +36,7 @@
 DATA_BASE_FILE="data_base.txt"
 
 SEP=:
-
+TEMP=temp.$$
 GREEN="\033[32;1m"
 RED="\033[31;1m"
 # ------------------------------------------------------------------------------------#
@@ -85,6 +85,23 @@ InsertUser() {
 		echo "$*" >> "$DATA_BASE_FILE"
 		echo "User sucessful registred"
 	fi
+	ListOrder
+}
+
+DeleteUser() {
+	UserExistsValidate "$1" || return
+
+	grep -i -v "1$SEP" "$DATA_BASE_FILE" > "$TEMP"
+	mv "$TEMP" "$DATA_BASE_FILE"
+
+	echo "User sucessful deleted"
+	ListOrder
+}
+
+ListOrder() {
+	sort "$DATA_BASE_FILE" > "$TEMP"
+	mv "$TEMP" "$DATA_BASE_FILE"
+
 }
 
 
