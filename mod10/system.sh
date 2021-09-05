@@ -61,16 +61,22 @@ UserExistsValidate() {
 }
 
 InsertUser() {
-	local name="echo $1 | cut -d $SEP -f 2"
-	
-	if UsersExistValidate "$name"
-	then
-		echo "ERROR. User already exists" 
-	else
-		echo "$*" >> "$DATA_BASE_FILE"
-		echo "User sucessful registred"
-	fi
-	ListOrder
+	local last_id="$(egrep -v "^#|^$" "$DATA_BASE_FILE" | sort | tail -n 1 | cut -d $SEP -f 1)"
+	local next_id=$(($last_id+1))
+
+
+	local name=$(dialog --title "Register Users" --stdout --inputbox "Type it" 0 0)
+
+	UserExistsValidate "$name" && {
+		dialog --title "Fatal ERROR" --msgbox "Users already exists on system" 6 40
+		exit 1
+	}
+
+	local email=$(dialog --title "Register Users" --stdout --inputbox "Type it" 0 0)
+
+	echo "$next_id$SEP$name$SEP$email" >> "$DATA_BASE_FILE"
+	dialog --title "SUCCESS --msgbox "User successful register" 6 40
+
 }
 
 DeleteUser() {
