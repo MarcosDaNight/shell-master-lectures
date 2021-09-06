@@ -57,7 +57,7 @@ ListUsers() {
 	rm -f "$TEMP"
 }
 UserExistsValidate() {
-	grep -i -q "1$SEP" "$DATA_BASE_FILE"
+	grep -i -q "$1$SEP" "$DATA_BASE_FILE"
 }
 
 InsertUser() {
@@ -65,33 +65,17 @@ InsertUser() {
 	local next_id=$(($last_id+1))
 
 
-	local name=$(dialog --title "Register Users" --stdout --inputbox "Type it" 0 0)
+	local name=$(dialog --title "Register Users" --stdout --inputbox "Type it name" 0 0)
 
 	UserExistsValidate "$name" && {
-		dialog --title "Fatal ERROR" --msgbox "Users already exists on system" 6 40
+		dialog --title "Fatal ERROR" --msgbox "User already exists on system" 6 40
 		exit 1
 	}
 
-	local email=$(dialog --title "Register Users" --stdout --inputbox "Type it" 0 0)
+	local email=$(dialog --title "Register Users" --stdout --inputbox "Type it email" 0 0)
 
 	echo "$next_id$SEP$name$SEP$email" >> "$DATA_BASE_FILE"
-	dialog --title "SUCCESS --msgbox "User successful register" 6 40
-
-}
-
-DeleteUser() {
-	UserExistsValidate "$1" || return
-
-	grep -i -v "1$SEP" "$DATA_BASE_FILE" > "$TEMP"
-	mv "$TEMP" "$DATA_BASE_FILE"
-
-	echo "User sucessful deleted"
-	ListOrder
-}
-
-ListOrder() {
-	sort "$DATA_BASE_FILE" > "$TEMP"
-	mv "$TEMP" "$DATA_BASE_FILE"
+	dialog --title "SUCCESS!" --msgbox "User successful register" 6 40
 
 }
 
@@ -99,9 +83,23 @@ ListOrder() {
 # ------------------------------------------------------------------------------------#
 #
 # --------------------------------------Execution----------------------------------------------#
-#
-#
-#
+while :
+do
+	action=$(dialog --title "User Management 2.0" \
+			  			 --stdout \
+					 	 --menu "Chose an option below:" \
+						 0 0 0 \
+						 list "List all users from the system" \
+						 remove "Remove a user from the system" \
+						 insert "Insert a new user in system")
+
+	case $action in
+		list) ListUsers    ;;
+		insert) InsertUser ;;
+		#remove) DeleteUses ;;
+	esac	  
+done
+
 # ------------------------------------------------------------------------------------#
 #
 
